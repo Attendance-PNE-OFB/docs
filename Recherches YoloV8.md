@@ -1,0 +1,63 @@
+# Compte rendus de recherche sur YoloV8
+
+## YoloV8 detection
+
+### Résumé
+
+Le modèle YoloV8 pour la detection est plus rapide et plus performant que la modele YoloV4.
+Il permet de compter les éléments sur lesquels il a été entrainé.
+Il est entrainé sur le dataset COCO lui aussi.
+Il existe des version préentrainé disponnible qui peuvent être amélioré avec les données du parc.
+
+### Résultats expérimentaux
+
+TODO : 
+
+Sur 1000-10000 images tester YoloV4-Attendance
+Sur 1000-10000 images tester YoloV8             
+
+Comparer les temps de predicitions, le pourcentage d'erreurs, les labels
+
+### Ouverture
+
+Il existe un Dataset de Google OpenImageV7, qui pourrai permettre un appronfondissement de l'entrainement du modèle ?????
+
+## YoloV8 pose
+
+
+### Résumé 
+
+Permet de compter le nombre d'humains et de récupérer leurs poses sous forme de 16 points.
+    NOSE:           int = 0
+    LEFT_EYE:       int = 1
+    RIGHT_EYE:      int = 2
+    LEFT_EAR:       int = 3
+    RIGHT_EAR:      int = 4
+    LEFT_SHOULDER:  int = 5
+    RIGHT_SHOULDER: int = 6
+    LEFT_ELBOW:     int = 7
+    RIGHT_ELBOW:    int = 8
+    LEFT_WRIST:     int = 9
+    RIGHT_WRIST:    int = 10
+    LEFT_HIP:       int = 11
+    RIGHT_HIP:      int = 12
+    LEFT_KNEE:      int = 13
+    RIGHT_KNEE:     int = 14
+    LEFT_ANKLE:     int = 15
+    RIGHT_ANKLE:    int = 16
+
+Il serai possible de récupérer ses points sur différentes images et de rajouter l'information "vas a droite" ou "vas au Nord" (annoter)
+Affin d'entrainer un modele de type RulesTree (lib skrules) qui est capable de comparer des variables entres elle pour classifier (au lieu de valeurs seuils dans un decision tree classique)
+
+ - Problème il faut annoter un dataset
+ - Problème un arbre peu etre long a entrainer
+
+ + Avantage potentiellement très précis
+ + Améliorable avec RandomForest et Bootstrap
+
+## Multi-modèle
+
+### Idée
+
+Au lieu d'utiliser un seul modèle qui fait tout.
+Il est possible de mettre en place plusieurs modèle spécialisés pour faire certaine taches.
