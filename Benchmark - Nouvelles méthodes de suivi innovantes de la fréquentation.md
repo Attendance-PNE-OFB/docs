@@ -1,24 +1,28 @@
-![Logo Polytech&INP](logo.png)  
-![Logo PNE](logo.png)  
-![Logo OFB](logo.png)  
+![Logo Polytech&INP](logo_Polytech&INP.png)
+![Logo PNE](logo_PNE.jpg)
+![Logo OFB](logo_OFB.jpg)  
 # Benchmark - Nouvelles méthodes de suivi innovantes de la fréquentation <br> Janvier 2024
 
 ## Contexte
-Ce document est un complément non exhaustif de l’état de l’art réalisé par Aurélien Coste en mai 2023 lors de son stage au Parc National des Écrins. Il s’agit dans ce document, de compléter l’état de l’art de 2023 avec les nouvelles solutions disponibles depuis. L’ancien état de l’art est disponible ici : État de l'art 2023
+Ce document est un complément non exhaustif de l’état de l’art réalisé par Aurélien Coste en mai 2023 lors de son stage au Parc National des Écrins. Il s’agit dans ce document, de compléter l’état de l’art de 2023 avec les nouvelles solutions disponibles depuis. L’ancien état de l’art est disponible ici : [État de l'art 2023](https://github.com/Attendance-PNE-OFB/docs/blob/main/%C3%89tat%20de%20l'art%20-%20M%C3%A9thodes%20de%20suivi%20innovantes.pdf)
 
 ## Technologies
 ### Huggingface.co
 Huggingface.co est un site qui héberge de nombreux modèles et datasets déposés par une communauté d’utilisateurs. 
 Il est possible de faire tourner un modèle via les “spaces” du site, certains sont payants d’autres sont gratuits. 
 Il offre également des ressources pour entraîner des modèles. Bien qu’il existe de nombreux modèles et datasets différents, 
-le site et ses utilisateurs actifs sont spécialisés dans les modèles de NLP (Natural Language Processing) qui portent essentiellement sur la compréhension, 
+le site et ses utilisateurs actifs sont spécialisés dans les modèles de **NLP** (**N**atural **L**anguage **P**rocessing) qui portent essentiellement sur la compréhension, 
 la manipulation et la génération du langage naturel par les machines. Exemples : Google translator, Siri, Chatbots, etc
 
 ### Kaggle
 https://www.kaggle.com/
 
 ### CLIP
-CLIP (Constrastive Language-Image Pre-training) est un modèle développé par OpenAI. 
+**CLIP** (**C**onstrastive **L**anguage-**I**mage **P**re-training) est un modèle développé par OpenAI. 
 Le modèle combine des capacités de NLP et de vision par ordinateur afin de comprendre les relations entre images et texte. En effet, le modèle est capable de connecter un texte à une image. 
 Il peut être appliqué à n’importe quel benchmark de classification visuelle en fournissant simplement les noms des catégories visuelles à reconnaître. 
-Néanmoins, CLIP obtient de moins bons résultats dans les tâches un peu plus abstraites ou spécifiques telles que le comptage du nombre d’objets dans une image.
+Néanmoins, CLIP obtient de moins bons résultats dans les tâches un peu plus abstraites ou spécifiques telles que le comptage du nombre d’objets dans une image.  
+
+Après avoir testé le modèle rapidement, il semblerait que celui-ci ai du mal à classifier les images si on rajoute trop de catégories.  
+J'ai fait quelques tests avec entre 3 et 11 catégories et la classification est pas très bonne lorsqu'on rajoute certaines catégories.  
+Il faut encore que je test avec un dataset plus complet, mais il semblerait que CLIP ne s'adapate pas à notre cas d'usage car on a trop de catégories pour lui? ou alors il faut être très précis sur l'intitulé des catégories?
