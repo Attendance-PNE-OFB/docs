@@ -17,6 +17,6 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 ## 01/02 (demi-journée)
 
 - Redaction des questions et pistes trouvés par Lony pour Mathieu Garel. (IAE)
-- 
+- CLIP n'est pas adapté à notre cas d'usage, pour les explications voir le benchmark
 
 ## 02/02
