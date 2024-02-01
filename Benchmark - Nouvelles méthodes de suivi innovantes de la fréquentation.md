@@ -21,6 +21,7 @@ https://www.kaggle.com/
 **CLIP** (**C**onstrastive **L**anguage-**I**mage **P**re-training) est un modèle développé par OpenAI. 
 Le modèle combine des capacités de NLP et de vision par ordinateur afin de comprendre les relations entre images et texte. En effet, le modèle est capable de connecter un texte à une image. 
 Il peut être appliqué à n’importe quel benchmark de classification visuelle en fournissant simplement les noms des catégories visuelles à reconnaître. 
+Le modèle a été entraîné avec le dataset BigBiRD qui contient des paires textes-image, ainsi que le dataset Conceptual Captions
 Néanmoins, CLIP obtient de moins bons résultats dans les tâches un peu plus abstraites ou spécifiques telles que le comptage du nombre d’objets dans une image.  
 
 Après avoir testé le modèle rapidement, il semblerait que celui-ci ai du mal à classifier les images si on rajoute trop de catégories.  
