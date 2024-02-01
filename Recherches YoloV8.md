@@ -13,12 +13,12 @@ La migration de YoloV4 vers YoloV8 semble donc facile et plutot recommandée.
 
 ### Résultats expérimentaux
 
-<span style="color:red;">TODO : <span>
+<span style="color:red;">TODO : </span>
 
 Sur 1000-10000 images tester YoloV4-Attendance
 Sur 1000-10000 images tester YoloV8             
 
-<span style="color:red;">Comparer les temps de predicitions, le pourcentage d'erreurs, les labels <span>
+<span style="color:red;">Comparer les temps de predicitions, le pourcentage d'erreurs, les labels </span>
 
 
 
@@ -67,7 +67,7 @@ Autre possibilitée utiliser une matrice de distances des points de la position 
 
 Il reste cependant le problème de savoir, grace a la prediction, dans quel sens réel la personne se dirige. Cela dépend d'ou est positionner le capteur sur le chemin et vers ou il fait face.
 
-<span style="color:green;"> Note :  modèle droite/gauche ? OU modèle Nord/Sus/Est/Ouest  ? <span>
+<span style="color:green;"> Note :  modèle droite/gauche ? OU modèle Nord/Sus/Est/Ouest  ? </span>
 
 ## Multi-modèle
 
@@ -97,3 +97,13 @@ Input -> Modèle :
 - Output1 
 - Output2
 - ...
+
+## Migration vers Yolov8
+
+yolov4-attendance a été fork sur un nouveau repo qui n'est pas encore dans l'organisation.
+Le code a été modifié au minimum pour fonctionner avec YoloV8, cepednant l'outil est conçus spécialement pour être utilisé avec des données formatés du certaines manière.
+Nous allons donc récupérer un jeu de données pour test et comparaison des deux modèle afin de confirmer ou non la solution de la migration.
+
+Problèmes potentiels : 
++ Output différent entre v4 et v8
++ Classification différente au niveau de V8 (notamment sur la normalisation des images)
