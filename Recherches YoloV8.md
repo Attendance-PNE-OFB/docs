@@ -15,8 +15,13 @@ La migration de YoloV4 vers YoloV8 semble donc facile et plutot recommandée.
 
 <span style="color:red;">TODO : </span>
 
-Sur 1000-10000 images tester YoloV4-Attendance
-Sur 1000-10000 images tester YoloV8             
+Sur 2911 Images :  
+
+YoloV4 : 389,56 sec  
+YoloV8n: 76,08 sec  
+YoloV8x: 127,03 sec  
+
+(Calcule efféctué sur une Nvidia RTX 3060 Mobile)
 
 <span style="color:red;">Comparer les temps de predicitions, le pourcentage d'erreurs, les labels </span>
 
