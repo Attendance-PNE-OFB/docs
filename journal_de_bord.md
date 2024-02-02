@@ -13,13 +13,18 @@ Début d'analyse de l'outil CLIP, envoi mail à Vincent Miele à propos de son t
 J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il est adapté à notre cas d'usage, car à première vue, ce n'est pas sûr.
 - Premières expérimentations sur YoloV8, rédaction d'un markdown de compte-rendus sur les pistes trouvées et les expérimentation a faire.
 - Planification de la tentative de fork et migration de YoloV4-Attendance et YoloV8 pour vérification de la pertinence de la solution.
+- Début création d'un script pour définir l'orientation des humains
 
 ## 01/02 (demi-journée)
 
 - Redaction des questions et pistes trouvés par Lony pour Mathieu Garel. (IAE)
 - CLIP n'est pas adapté à notre cas d'usage, pour les explications voir le benchmark
+- Continue le script d'orientation
 
 ## 02/02
 
+- Rencontre avec Mathieu Garel dans les locaux de l'OFB. Récupération des données et discussion autour des pistes envisagées
+- Travail sur CLIP pour essayer de faire plusieurs classifications successives avec différents critères à chaque fois pour réduire le problème du nombre de prompts
+- Test du modèle d'orientation avec des photos du site + optimisation
 - Comparaison de rapidité de calcul entre YoloV4 et YoloV8, YoloV8 est plus rapide d'un facteur 3. Et ce, pour le plus gros modèle de YoloV8 (le 'X').
 - Pour la prochaine fois, redigier les tests complet et faire une comparaison de précision entre les deux modèles.
