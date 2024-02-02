@@ -20,3 +20,6 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - CLIP n'est pas adapté à notre cas d'usage, pour les explications voir le benchmark
 
 ## 02/02
+
+- Rencontre avec Mathieu Garel dans les locaux de l'OFB. Récupération des données et discussion autour des pistes envisagées
+- Travail sur CLIP pour essayer de faire plusieurs classifications successives avec différents critères à chaque fois pour réduire le problème du nombre de prompts
