@@ -15,7 +15,7 @@ le site et ses utilisateurs actifs sont spécialisés dans les modèles de **NLP
 la manipulation et la génération du langage naturel par les machines. Exemples : Google translator, Siri, Chatbots, etc
 
 ### Kaggle
-https://www.kaggle.com/
+Kaggle est une plateforme en ligne qui héberge des datasets, des notebooks python, des modèles et plus généralement des ressources à propos de la science des données. Il y a également des cours et des compétitions organisées par la plateforme. Dans notre cas, le site peut nous être utile pour trouver des datasets intéressants, potentiellement des modèles d'IA et des bouts de codes python.
 
 ### CLIP
 **CLIP** (**C**onstrastive **L**anguage-**I**mage **P**re-training) est un modèle développé par OpenAI. 
