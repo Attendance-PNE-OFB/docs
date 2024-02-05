@@ -32,6 +32,7 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 ## 05/02 (demi-journée)
 - Travail sur le code qui sort en output la classification par image (pour Yolov4)
 - Création du template de comparaison de modèle
+- Test sur images du site les directions + cleaning
 
 ## 06/02
 
