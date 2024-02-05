@@ -28,12 +28,14 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Test du modèle d'orientation avec des photos du site + optimisation
 - Comparaison de rapidité de calcul entre YoloV4 et YoloV8, YoloV8 est plus rapide d'un facteur 3. Et ce, pour le plus gros modèle de YoloV8 (le 'X').
 - Pour la prochaine fois, redigier les tests complet et faire une comparaison de précision entre les deux modèles.
+- Commencement d'un script python d'extraction des métadonnées des photos, afin de pouvoir vérifier les prédictions du modèle.
 
 ## 05/02 (demi-journée)
 - Travail sur le code qui sort en output la classification par image (pour Yolov4)
 - Création du template de comparaison de modèle
 - Test sur images du site les directions + cleaning
 - Reprise du code Yolov4-attendance pour faire un output de classificatiobn par image, reste a adpater pour Yolov8.
+- Fin du code d'extraction des métadonnées, avec l'ajout d'un fichier JSON de sortie, plus propre.
 
 ## 06/02
 
