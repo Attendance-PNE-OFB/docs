@@ -33,6 +33,7 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Travail sur le code qui sort en output la classification par image (pour Yolov4)
 - Création du template de comparaison de modèle
 - Test sur images du site les directions + cleaning
+- Reprise du code Yolov4-attendance pour faire un output de classificatiobn par image, reste a adpater pour Yolov8.
 
 ## 06/02
 
