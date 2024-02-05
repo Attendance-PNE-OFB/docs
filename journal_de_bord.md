@@ -28,3 +28,15 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Test du modèle d'orientation avec des photos du site + optimisation
 - Comparaison de rapidité de calcul entre YoloV4 et YoloV8, YoloV8 est plus rapide d'un facteur 3. Et ce, pour le plus gros modèle de YoloV8 (le 'X').
 - Pour la prochaine fois, redigier les tests complet et faire une comparaison de précision entre les deux modèles.
+
+## 05/02 (demi-journée)
+- Travail sur le code qui sort en output la classification par image (pour Yolov4)
+- Création du template de comparaison de modèle
+
+## 06/02
+
+## 07/02
+
+## 08/02
+
+## 09/02
