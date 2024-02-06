@@ -41,6 +41,8 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Inspection des cas d'erreurs de la prédiction des directions
 - Rédaction du comparatif entre les différents modèles sur un même jeu de données
 - Correction et ajout de fonctionnalités sur la partie extraction de métadonnées (les activités d'hiver (ski, ski rando, snowboard, ...) sont à rajouter)
+- Rédaction du code de comparaison des modèle
+- Rédaction du code pour tester l'efficacité de CLIP
 
 ## 07/02
 
