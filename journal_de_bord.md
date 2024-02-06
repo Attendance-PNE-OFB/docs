@@ -40,6 +40,7 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 ## 06/02
 - Inspection des cas d'erreurs de la prédiction des directions
 - Rédaction du comparatif entre les différents modèles sur un même jeu de données
+- Correction et ajout de fonctionnalités sur la partie extraction de métadonnées (les activités d'hiver (ski, ski rando, snowboard, ...) sont à rajouter)
 
 ## 07/02
 
