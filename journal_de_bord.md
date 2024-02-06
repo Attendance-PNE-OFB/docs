@@ -38,7 +38,8 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Fin du code d'extraction des métadonnées, avec l'ajout d'un fichier JSON de sortie, plus propre.
 
 ## 06/02
-- Inspection des cas d'erreur de la prédiction des directions
+- Inspection des cas d'erreurs de la prédiction des directions
+- Rédaction du comparatif entre les différents modèles sur un même jeu de données
 
 ## 07/02
 
