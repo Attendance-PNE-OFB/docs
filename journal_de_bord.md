@@ -39,10 +39,13 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 
 ## 06/02
 - Inspection des cas d'erreurs de la prédiction des directions
-- Rédaction du comparatif entre les différents modèles sur un même jeu de données
 - Correction et ajout de fonctionnalités sur la partie extraction de métadonnées (les activités d'hiver (ski, ski rando, snowboard, ...) sont à rajouter)
 - Rédaction du code de comparaison des modèle
 - Rédaction du code pour tester l'efficacité de CLIP
+- Fin d'implémentation du code d'extraction des données classifié par images de YoloV8
+- Comparaison sur le premier dataset (12K images) entre Yolov4, Yolov8n, Yolov8x
+- Rédaction du comparatif entre les différents modèles sur un même jeu de données
+- Optimisation des codes à planifier
 
 ## 07/02
 
