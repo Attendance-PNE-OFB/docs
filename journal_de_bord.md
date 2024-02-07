@@ -47,7 +47,13 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Rédaction du comparatif entre les différents modèles sur un même jeu de données
 - Optimisation des codes à planifier
 
-## 07/02
+## 07/02 (demi-journée)
+- Fin des test avec CLIP
+- Mise à jour du cahier des charges
+- Réalisation d'une matrice SWOT
+- Réalisation d'une matrice de prévention des risques
+- Réalisation d'un tableau de mitigation des risques
+- Première préparation pour la réunion checkpoint avec les pistes à explorer et à proposer
 
 ## 08/02
 
