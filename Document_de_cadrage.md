@@ -65,6 +65,6 @@ les différentes tâches nécessaires pour réaliser les livrables ont été les
 - Comparer les différents modèles pour savoir lequel est le plus efficace et sera utilisé par la suite
 - Prédire les directions des personnes
 
-Pour le Gantt, il nous a été demandé de le réaliser sur GitHub. Voici donc notre diagramme :
+Pour le Gantt, il nous a été demandé de le réaliser sur GitHub. Voici donc notre diagramme sur la période en cours:
 
 ![Gantt](https://i.ibb.co/6yG6vwk/Capture-d-e-cran-2024-02-07-a-09-42-10.png)
