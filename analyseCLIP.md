@@ -69,6 +69,7 @@
 #### Catégories renseignées à CLIP : "male", "female", "children", "adolescent", "adult", "senior", "hiker", "skier", "moutain biker"
 | Nom du sous_dataset | Temps de calcul (min) | Identification de sexe correct (%) | Identification de tranches d'âge correct (%) | Identification d'activité correcte (%)
 |-----------|-----------|-----------|-----------|-----------|
+| 101_BTCF   | 3'25"(205sec)      | 37.1% | 51.3% | 59.9%   |
 | 100_BTCF   | 3'25"(205sec)      | 35.0% | 55.0% | 56.8%   |
 
 #### Commentaires
