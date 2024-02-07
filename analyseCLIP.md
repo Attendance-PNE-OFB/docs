@@ -1,4 +1,16 @@
 ### 20200709_20200802 (12 885 images)
+
+#### Catégories renseignées à CLIP : "male", "female", "children", "adolescent", "adult", "senior", "hiker", "skier", "moutain biker"
+| Nom du sous_dataset | Temps de calcul (min) | Identification de sexe correct (%) | Identification de tranches d'âge correct (%) | Identification d'activité correcte (%)
+|-----------|-----------|-----------|-----------|-----------|
+| 101_BTCF   | 3'25"(205sec)      | 37.1% | 51.3% | 59.9%   |
+| 100_BTCF   | 3'25"(205sec)      | 35.0% | 55.0% | 56.8%   |
+
+#### Catégories renseignées à CLIP : "boy", "girl", "children", "adolescent", "adult", "senior", "hiker", "skier", "moutain biker"
+| Nom du sous_dataset | Temps de calcul (min) | Identification de sexe correct (%) | Identification de tranches d'âge correct (%) | Identification d'activité correcte (%)
+|-----------|-----------|-----------|-----------|-----------|
+| 101_BTCF   | 3'25"(205sec)      | 64.2% | 51.3% | 59.9%   |
+
 #### Catégories renseignées à CLIP : "man", "women", "0-15", "15-35", "35-60", "60-100", "hiker", "skier", "moutain biker"
 | Nom du sous_dataset | Temps de calcul (min) | Identification de sexe correct (%) | Identification de tranches d'âge correct (%) | Identification d'activité correcte (%)
 |-----------|-----------|-----------|-----------|-----------|
@@ -66,14 +78,24 @@
 |-----------|-----------|-----------|-----------|-----------|
 | 101_BTCF   | 3'25"(205sec)      | 71.4% | 23.1% | 59.9%   |
 
-#### Catégories renseignées à CLIP : "male", "female", "children", "adolescent", "adult", "senior", "hiker", "skier", "moutain biker"
+#### Catégories renseignées à CLIP : "man", "women", "children", "adolescent", "adult", "senior", "walker", "skier", "bicyclist"
 | Nom du sous_dataset | Temps de calcul (min) | Identification de sexe correct (%) | Identification de tranches d'âge correct (%) | Identification d'activité correcte (%)
 |-----------|-----------|-----------|-----------|-----------|
-| 101_BTCF   | 3'25"(205sec)      | 37.1% | 51.3% | 59.9%   |
-| 100_BTCF   | 3'25"(205sec)      | 35.0% | 55.0% | 56.8%   |
+| 101_BTCF (2911img)  | 3'24"(204sec)      | 71.4% | 51.3% | 12.1%   |
+
+#### Catégories renseignées à CLIP : "man", "women", "children", "adolescent", "adult", "senior", "hiker", "skier", "bicyclist"
+| Nom du sous_dataset | Temps de calcul (min) | Identification de sexe correct (%) | Identification de tranches d'âge correct (%) | Identification d'activité correcte (%)
+|-----------|-----------|-----------|-----------|-----------|
+| 101_BTCF (2911img)  | 3'24"(204sec)      | 71.4% | 51.3% | 66.0%   |
+
 
 #### Commentaires
-Mettre des commentaires si nécessaire.
+On remarque qu'on atteint les 71.4% de réussite sur le sexe sur deux critères, 66.0% sur l'activité pour trois critères et 51.3% sur l'âge pour quatre critères.
+On est à plus ou moins 10% de perdu par critères en plus. Selon les datasets, on est à +/- 5%.
 
 ## Conclusion
-Indiquer quel modèle est le meilleur et pourquoi ?
+Le meilleur ensemble de prompts pour le sexe est : "man", "women"
+Le meilleur ensemble de prompts pour l'âge est : "children", "adolescent", "adult", "senior"
+Le meilleur ensemble de prompts pour l'activité est : "hiker", "skier", "bicyclist"
+Modifier les prompts d'un critère ne change pas les prédictions des autres critères puisqu'on classifie plusieurs fois l'image (une fois par critère).
+Pour le temps de calcul, modifier les prompts ne change pas le temps de calcul. Le temps augmente quand on rajoute de nouveaux prompts.
