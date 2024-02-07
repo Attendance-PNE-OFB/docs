@@ -98,13 +98,13 @@ Pour le Gantt, il nous a été demandé de le réaliser sur GitHub. Voici donc n
 ## Risques
 
 ### SWOT
-  ![alt text](![image](https://github.com/Attendance-PNE-OFB/docs/assets/58562700/2d3a802c-9dc0-402c-8e6f-1ff40567cd87)
+![image](https://github.com/Attendance-PNE-OFB/docs/assets/58562700/2d3a802c-9dc0-402c-8e6f-1ff40567cd87)
 
 
 ### Matrice des risques
-![alt text2](![image](https://github.com/Attendance-PNE-OFB/docs/assets/58562700/a148ffb1-6ca8-4734-b503-0b3dea62c4f7)
+![image](https://github.com/Attendance-PNE-OFB/docs/assets/58562700/a148ffb1-6ca8-4734-b503-0b3dea62c4f7)
 
   
 ### Mitigation des risques
-![alt text3](![image](https://github.com/Attendance-PNE-OFB/docs/assets/58562700/3324484a-6fc1-4b03-b773-f61a0df8a25c)
+![image](https://github.com/Attendance-PNE-OFB/docs/assets/58562700/3324484a-6fc1-4b03-b773-f61a0df8a25c)
 
