@@ -15,7 +15,7 @@ Les parties prenantes sont l'OFB, ainsi que le Parc National des Écrins.
 
 En savoir plus sur la fréquentation du parc :
 - Nombre de personnes circulants sur les sentiers du parc,
-- Le type de pratique (randonné, trail, ski, ...)
+- Le type de pratique (randonné, trail, ski, vtt, ...)
 - Le sexe et l'âge des personnes
 - La direction des personnes sur les sentiers
 
@@ -38,3 +38,9 @@ La validation des tâches dépendra de la précision du modèle. Pour le moment,
 # Organisation du projet
 
 ## Démarche & planning
+
+Les grandes étapes de ce projet sont tout d'abord la prise en main du sujet, sa compréhension, etc. Cette étape a pu être réalisée rapidement car Aurélien a effectué son stage avec les mêmes clients, et sur le même sujet. Il a donc été capable de contextualiser et expliquer les différentes missions de manière claire.
+
+Ensuite, l'objectif était de comparer les différents modèles existants, pour voir lesquels sont les plus efficaces et les plus précis.
+
+En parallèle, Esteban a pu avancer sur la première mission, qui était de détecter la direction des personnes qui empruntent les différents sentiers.
