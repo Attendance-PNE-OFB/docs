@@ -67,4 +67,4 @@ les différentes tâches nécessaires pour réaliser les livrables ont été les
 
 Pour le Gantt, il nous a été demandé de le réaliser sur GitHub. Voici donc notre diagramme :
 
-<img src = "https://i.ibb.co/6yG6vwk/Capture-d-e-cran-2024-02-07-a-09-42-10.png" alt= “Diagramme de Gantt” width="30%" height="30%">
+![Gantt](https://i.ibb.co/6yG6vwk/Capture-d-e-cran-2024-02-07-a-09-42-10.png)
