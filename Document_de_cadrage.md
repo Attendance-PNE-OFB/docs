@@ -98,4 +98,10 @@ Pour le Gantt, il nous a été demandé de le réaliser sur GitHub. Voici donc n
 ## Risques
 
 ### SWOT
-  ![alt text](https://cdn.discordapp.com/attachments/1201516007953547345/1204713569564884992/image.png?ex=65d5bbf1&is=65c346f1&hm=99eb520fb322569cb8c58884f2568eb96cefffcaf5c6b53d36d014ff13145e81&)
+  ![alt text](https://cdn.discordapp.com/attachments/1201516007953547345/1204713569564884992/image.png?
+
+### Matrice des risques
+![alt text](https://cdn.discordapp.com/attachments/1201516007953547345/1204728626524717076/Matrice_de_risques.png)
+  
+### Mitigation des risques
+![alt text](https://media.discordapp.net/attachments/1201516007953547345/1204728626256416798/Mitigation_des_risques.png)
