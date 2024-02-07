@@ -98,4 +98,4 @@ Pour le Gantt, il nous a été demandé de le réaliser sur GitHub. Voici donc n
 ## Risques
 
 ### SWOT
-  ![alt text](https://cdn.discordapp.com/attachments/829297963742134282/1204711693532397599/image.png?ex=65d5ba32&is=65c34532&hm=191f501d4b1b094f5a44e6447c59dd5c175dc20b458056f5292e9d7bebee2907&)
+  ![alt text](https://cdn.discordapp.com/attachments/1201516007953547345/1204713569564884992/image.png?ex=65d5bbf1&is=65c346f1&hm=99eb520fb322569cb8c58884f2568eb96cefffcaf5c6b53d36d014ff13145e81&)
