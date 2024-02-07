@@ -19,8 +19,10 @@ En savoir plus sur la fréquentation du parc :
 - Nombre de personnes circulants sur les sentiers du parc,
 - Le type de pratique (randonné, trail, ski, vtt, ...)
 - Le sexe et l'âge des personnes
-- La direction des personnes sur les sentiers
+- Analyse du flux de passage
 - Nombre d'animaux de compagnie
+- Floutage des passants
+- Analyse des performances de nos outils
 
 Améliorer les technologies existantes:
 - Mise à jour du modèle déjà utilisé
@@ -68,3 +70,32 @@ les différentes tâches nécessaires pour réaliser les livrables ont été les
 Pour le Gantt, il nous a été demandé de le réaliser sur GitHub. Voici donc notre diagramme sur la période en cours:
 
 ![Gantt](https://i.ibb.co/6yG6vwk/Capture-d-e-cran-2024-02-07-a-09-42-10.png)
+
+## Ressources
+
+### Equipement et matériel
+- Nos ordinateurs personnelle
+- Accès possible à grid5000
+
+### Budget prévisionnel
+0
+
+### Reeources humaines 
+- 1 chef de projet qui nous cadre mais reste flexible (Méthode agile)
+- 4 développeurs
+- Contact repide avec nos clients et developpeur sur place
+
+### Compétences utiles
+- Connaissance en Informatique et Intelligeance Artificiel
+- Communication efficace
+- Gestion du temps et des ressources
+- Résolution de problèmes
+- Esprit d'équipe
+- Flexibilité et adaptabilité
+
+## Organisation du projet et communication
+
+## Risques
+
+### SWOT
+  ![alt text](https://cdn.discordapp.com/attachments/829297963742134282/1204711693532397599/image.png?ex=65d5ba32&is=65c34532&hm=191f501d4b1b094f5a44e6447c59dd5c175dc20b458056f5292e9d7bebee2907&)
