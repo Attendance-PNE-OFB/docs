@@ -55,6 +55,9 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Réalisation d'un tableau de mitigation des risques
 - Première préparation pour la réunion checkpoint avec les pistes à explorer et à proposer
 
-## 08/02
+## 08/02 (demi-journée)
+- Analyse des labels du dataset de Google pour voir ce qu'on pourrait en tirer
+- Process des modèles pour continuer des comparaisons
+- Préparation de la réunion de demain
 
 ## 09/02
