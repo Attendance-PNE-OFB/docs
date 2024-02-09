@@ -61,3 +61,6 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Préparation de la réunion de demain
 
 ## 09/02
+- Fin comparaison yolov4 et yolov8
+- Mise au propre des labels du dataset de Google
+- Fin préparation de la réunion pour cet aprem
