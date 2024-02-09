@@ -64,3 +64,5 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Fin comparaison yolov4 et yolov8
 - Mise au propre des labels du dataset de Google
 - Fin préparation de la réunion pour cet aprem
+- Réunion avec le PNE & l'OFB
+- Distribution et préparation des tâches pour la semaine prochaine
