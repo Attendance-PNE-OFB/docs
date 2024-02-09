@@ -5,6 +5,9 @@
 |-----------|-----------|-----------|-----------|
 | yolov4   | 28'22"(1682.22sec)  | 95.2%   | 93.0%|
 | yolov8n   | 5'43"(342.83sec)   | 95.3%   | 92.6%|
+| yolov8s   | Ligne 2   | Ligne 2   |Ligne 2   |
+| yolov8m   | Ligne 2   | Ligne 2   |Ligne 2   |
+| yolov8l   | Ligne 2   | Ligne 2   |Ligne 2   |
 | yolov8x   |   9'39"(579sec) | 98.8%   | 97.5%| 
 
 #### Test avec 8Go de RAM, SSD, Intel I5 11eme Gen 2.4GHz (PC Bureautique)
@@ -19,6 +22,10 @@
 |-----------|-----------|-----------|
 | yolov4   | Ligne 1   | Ligne 1   |
 | yolov8n   | Ligne 2   | Ligne 2   |
+| yolov8s   | Ligne 2   | Ligne 2   |
+| yolov8m   | Ligne 2   | Ligne 2   |
+| yolov8l   | Ligne 2   | Ligne 2   |
+| yolov8x   | Ligne 2   | Ligne 2   |
 
 #### Test avec 8Go de RAM, SSD, Intel I5 11eme Gen 2.4GHz (PC Bureautique)
 | Nom du modèle | Temps de calcul (s) | Classifications correctes et comptages corrects (%) |
