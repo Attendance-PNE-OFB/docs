@@ -20,7 +20,7 @@
 #### Test avec 16Go de RAM, SSD, AMD Ryzen 5600H 2.28GHz, GPU RTX 3060 Mobile (PC Gamer)
 | Nom du modèle | Temps de calcul (s) | Classifications correctes et comptages corrects (%) |
 |-----------|-----------|-----------|
-| yolov4   | Ligne 1   | Ligne 2   |
+| yolov4   | 5'58"(357.6sec)  | 97.5%   |
 | yolov8n   | 1'12"(71.9sec)  | 97.2%   |
 
 
