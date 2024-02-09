@@ -1,2 +1,3 @@
 # docs
-Documents
+Ce dépôt contient l'ensemble des documents que nous avons produit pendant le projet.  
+Cela comprend, benchmark, documents de gestion de projet, compte-rendu d'analyse de modèles, etc...
