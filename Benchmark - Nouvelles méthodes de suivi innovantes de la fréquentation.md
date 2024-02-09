@@ -1,10 +1,10 @@
-![Logo Polytech&INP](logo_Polytech&INP.png)
-![Logo PNE](logo_PNE.jpg)
-![Logo OFB](logo_OFB.jpg)  
+![Logo Polytech&INP](assets/logo_Polytech&INP.png)
+![Logo PNE](assets/logo_PNE.jpg)
+![Logo OFB](assets/logo_OFB.jpg)  
 # Benchmark - Nouvelles méthodes de suivi innovantes de la fréquentation <br> Janvier 2024
 
 ## Contexte
-Ce document est un complément non exhaustif de l’état de l’art réalisé par Aurélien Coste en mai 2023 lors de son stage au Parc National des Écrins. Il s’agit dans ce document, de compléter l’état de l’art de 2023 avec les nouvelles solutions disponibles depuis. L’ancien état de l’art est disponible ici : [État de l'art 2023](https://github.com/Attendance-PNE-OFB/docs/blob/main/%C3%89tat%20de%20l'art%20-%20M%C3%A9thodes%20de%20suivi%20innovantes.pdf)
+Ce document est un complément non exhaustif de l’état de l’art réalisé par Aurélien Coste en mai 2023 lors de son stage au Parc National des Écrins. Il s’agit dans ce document, de compléter l’état de l’art de 2023 avec les nouvelles solutions disponibles depuis. L’ancien état de l’art est disponible ici : [État de l'art 2023](https://github.com/Attendance-PNE-OFB/docs/assets/blob/main/%C3%89tat%20de%20l'art%20-%20M%C3%A9thodes%20de%20suivi%20innovantes.pdf)
 
 ## Technologies
 ### Huggingface.co
