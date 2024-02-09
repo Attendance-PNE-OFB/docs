@@ -20,17 +20,14 @@
 #### Test avec 16Go de RAM, SSD, AMD Ryzen 5600H 2.28GHz, GPU RTX 3060 Mobile (PC Gamer)
 | Nom du modèle | Temps de calcul (s) | Classifications correctes et comptages corrects (%) |
 |-----------|-----------|-----------|
-| yolov4   | Ligne 1   | Ligne 1   |
-| yolov8n   | Ligne 2   | Ligne 2   |
-| yolov8s   | Ligne 2   | Ligne 2   |
-| yolov8m   | Ligne 2   | Ligne 2   |
-| yolov8l   | Ligne 2   | Ligne 2   |
-| yolov8x   | Ligne 2   | Ligne 2   |
+| yolov4   | Ligne 1   | Ligne 2   |
+| yolov8n   | 1'12"(71.9sec)  | 97.2%   |
+
 
 #### Test avec 8Go de RAM, SSD, Intel I5 11eme Gen 2.4GHz (PC Bureautique)
 | Nom du modèle | Temps de calcul (s) | Classifications correctes et comptages corrects (%) |
 |-----------|-----------|-----------|
-| yolov8n   | 6'11"(371sec)  | Ligne 2   |
+| yolov8n   | 6'11"(371sec)  | 97.2%   |
 
 #### Commentaires
 On remarque que la précision des modèles v4 et v8n sont très proches, mais on observe bien que le modèle v8n est beaucoup plus performant (plus de 5x plus rapide). Le v8x est plus lent que le v8n, même si toujours bien plus rapide que le v4 (3x plus rapide). Sa performance est par contre bien meilleure.
