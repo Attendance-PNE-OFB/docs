@@ -89,6 +89,20 @@
 | 101_BTCF (2911img)  | 3'24"(204sec)      | 71.4% | 51.3% | 66.0%   |
 | 100_BTCF (9971img)   | 11'47"(707sec)   | 68.1% | 55.0% | 58.0%   |
 
+### Liste des catégories à tester :
+#### Pour le sexe :
+- "man" "woman"
+- "it's a man" "it'a a woman"
+- "this person is a man" "this person is a woman"
+#### Pour l'âge :
+- "kid" "adult"
+- "it'a kid" "it'a adult"
+- "this person is a kid" "this person is a woman"
+#### Pour l'acitvité :
+- "hiker" "skier" "cyclist" "vtt"
+- "hiker" "skier" "cyclist" "bicyclist"
+- "this person hikes" "this person is a ski tourer" "this person rides a bike" 
+
 
 #### Commentaires
 On remarque qu'on atteint les 71.4% de réussite sur le sexe sur deux critères, 66.0% sur l'activité pour trois critères et 51.3% sur l'âge pour quatre critères.
