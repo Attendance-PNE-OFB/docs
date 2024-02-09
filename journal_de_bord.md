@@ -66,3 +66,13 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Fin préparation de la réunion pour cet aprem
 - Réunion avec le PNE & l'OFB
 - Distribution et préparation des tâches pour la semaine prochaine
+
+## 12/02 (demi-journée)
+
+## 13/02 (demi-journée)
+
+## 14/02 (demi-journée)
+
+## 15/02 (demi-journée)
+
+## 16/02
