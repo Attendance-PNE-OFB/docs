@@ -89,6 +89,18 @@
 | 101_BTCF (2911img)  | 3'24"(204sec)      | 71.4% | 51.3% | 66.0%   |
 | 100_BTCF (9971img)   | 11'47"(707sec)   | 68.1% | 55.0% | 58.0%   |
 
+
+#### Commentaires
+On remarque qu'on atteint les 71.4% de réussite sur le sexe sur deux critères, 66.0% sur l'activité pour trois critères et 51.3% sur l'âge pour quatre critères.
+On est à plus ou moins 10% de perdu par critères en plus. Selon les datasets, on est à +/- 5%.
+
+## Conclusion
+Le meilleur ensemble de prompts pour le sexe est : **"man", "women"**  
+Le meilleur ensemble de prompts pour l'âge est : **"children", "adolescent", "adult", "senior"**  
+Le meilleur ensemble de prompts pour l'activité est : **"hiker", "skier", "bicyclist"**  
+Modifier les prompts d'un critère ne change pas les prédictions des autres critères puisqu'on classifie plusieurs fois l'image (une fois par critère).  
+Pour le temps de calcul, modifier les prompts ne change pas le temps de calcul. Le temps augmente quand on rajoute de nouveaux prompts.
+
 ### Liste des catégories à tester :
 #### Pour le sexe :
 - "man" "woman"
@@ -101,16 +113,25 @@
 #### Pour l'acitvité :
 - "hiker" "skier" "cyclist" "vtt"
 - "hiker" "skier" "cyclist" "bicyclist"
-- "this person hikes" "this person is a ski tourer" "this person rides a bike" 
+- "this person hikes" "this person is a ski tourer" "this person rides a bike"
+
+### Comparaison singulier/pluriel
+
+# Suite de l'analyse
+## Singulier vs pluriel
+#### Catégories renseignées à CLIP : "man", "woman", "child", "adolescent", "adult", "senior", "hiker", "skier", "bicyclist"
+| Nom du sous_dataset | Temps de calcul (min) | Identification de sexe correct (%) | Identification de tranches d'âge correct (%) | Identification d'activité correcte (%)
+|-----------|-----------|-----------|-----------|-----------|
+| 101_BTCF (2911img)  | 3'24"(204sec)      | 73.9% | 11.0% | 66.0%   |
+
+#### Catégories renseignées à CLIP : "men", "women", "children", "adolescents", "adults", "seniors", "hikers", "skiers", "bicyclists"
+| Nom du sous_dataset | Temps de calcul (min) | Identification de sexe correct (%) | Identification de tranches d'âge correct (%) | Identification d'activité correcte (%)
+|-----------|-----------|-----------|-----------|-----------|
+| 101_BTCF (2911img)  | 3'24"(204sec)      | 50.8% | 45.6% | 64.7%   |
+
+#### Catégories renseignées à CLIP : "man", "woman", "men", "women", "child", "children", "adolescent", "adolescents", "adult", "adults", "senior", "seniors", "hiker", "hikers", "skier", "skiers", "bicyclist", "bicyclists"
+| Nom du sous_dataset | Temps de calcul (min) | Identification de sexe correct (%) | Identification de tranches d'âge correct (%) | Identification d'activité correcte (%)
+|-----------|-----------|-----------|-----------|-----------|
+| 101_BTCF (2911img)  | 3'24"(204sec)      | 64.0% | 57.0% | 67.3%   |
 
 
-#### Commentaires
-On remarque qu'on atteint les 71.4% de réussite sur le sexe sur deux critères, 66.0% sur l'activité pour trois critères et 51.3% sur l'âge pour quatre critères.
-On est à plus ou moins 10% de perdu par critères en plus. Selon les datasets, on est à +/- 5%.
-
-## Conclusion
-Le meilleur ensemble de prompts pour le sexe est : **"man", "women"**  
-Le meilleur ensemble de prompts pour l'âge est : **"children", "adolescent", "adult", "senior"**  
-Le meilleur ensemble de prompts pour l'activité est : **"hiker", "skier", "bicyclist"**  
-Modifier les prompts d'un critère ne change pas les prédictions des autres critères puisqu'on classifie plusieurs fois l'image (une fois par critère).  
-Pour le temps de calcul, modifier les prompts ne change pas le temps de calcul. Le temps augmente quand on rajoute de nouveaux prompts.
