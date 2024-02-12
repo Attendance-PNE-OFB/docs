@@ -68,6 +68,9 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Distribution et préparation des tâches pour la semaine prochaine
 
 ## 12/02 (demi-journée)
+- Analyse de CLIP sur le singulier/pluriel, la taille des phrases et l'ordre
+- Début prospection LoRaWAN
+- Début comparaison du modèle yolov8m entrainé sur COCO et OpenImageV7
 
 ## 13/02 (demi-journée)
 
