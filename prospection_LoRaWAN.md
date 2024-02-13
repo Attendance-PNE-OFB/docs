@@ -6,7 +6,7 @@ Le Lora est un moyen de communication faible énergie, qui communique sur des on
 
 ## Problématique
 
-Comme dit précédemment, ce type de réseau peut être très utile, permettant de consommer très peu d'énergie, tout en transmettant de manière efficace l'information. Cependant, cela a un coût, et potentiellement de la pollution visuelle dans le parc. Nous allons donc voir les avantages d'un installation LoRaWAN dans le parc national des Écrins, et les inconvénients que son installation représente.
+Comme écrit précédemment, ce type de réseau peut être très utile, permettant de consommer très peu d'énergie, tout en transmettant de manière efficace l'information. Cependant, cela a un coût, et potentiellement de la pollution visuelle dans le parc. Nous allons donc voir les avantages d'une installation LoRaWAN dans le parc national des Écrins, et les inconvénients que son installation représente.
 
 ## LoRaWAN, ses besoins
 
@@ -18,9 +18,12 @@ Pour fonctionner correctement, une infrastructure LoRaWAN doit comprendre plusie
 
 - **Network Server :** un serveur qui fait tourner un software qui permet de gérer tout le réseau
 
-- **Application Server :** un serveur (peut être le même que celui du Network Server) qui fait tourner un software qui permet de consulter les données de manière sécurisée.
+- **Application Server :** un serveur (peut-être le même serveur que le Network Server) qui fait tourner un software qui permet de consulter les données de manière sécurisée
 
-- **Join Serveur :** un software qui tourne sur un serveur qui permet de gérer les join-requests des endnodes.
+- **Join Serveur :** un software qui tourne sur un serveur qui permet de gérer les join-requests des endnodes, autrement dit il gère l'ajout de nouveaux équipements dans le réseau
+
+![Architecture lorawan](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/9a2e4c82-880f-4daa-b400-1cdbd331fd2d)
+
 
 Ces appareils représentent tous ceux disponibles dans une installation LoRaWAN. Il est important de noter que tous ces appareils ne sont pas obligatoires pour une installation. Par exemple, le Join Serveur est optionnel.
 
@@ -43,7 +46,7 @@ Tous ces appareils ont un coût :
 *Facteurs de variation :*
 
 - Nombre de canaux: 1 à 8 canaux
-- Portée: Intérieure ou extérieure
+- Portée: 2km à 10km
 - Fabricant: MultiTech, Kerlink, RAK Wireless, etc.
 
 **Network Server :**
