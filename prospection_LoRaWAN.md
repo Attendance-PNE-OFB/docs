@@ -76,3 +76,11 @@ Tous ces appareils ont un coût :
 Remarques :
 
 Comme le PNE possède déjà des serveurs, il est possible de les utiliser pour héberger le network server et l'application serveur, ce qui réduira le coût total du réseau.
+
+## Mise en situation - PNE
+
+Le parc national des Écrins a une superficie de 2 700 km². En sachant qu'on est en zone rurale, (non urbaine), mais que l'on a la présence d'un grand nombre d'arbres dû aux forêts, une gateway pourra avoir une portée d'environ 10km. Pour s'assurer d'une bonne couverture, il faudrait que les gateways se chauvauchent, à 50% par exemple pour garantir une bonne couverture et transmission/réception des messages (ce chauvauchement peut être modifié, un moins grand pourcentage de chauvauchement permettra une installation plus légère (moins de gateways) mais une couverture moins bonne).
+
+Nombre de gateways = Superficie / (Portée² * (1 - Chevauchement))
+
+Il faudrait donc 2700 / (10² * (1 - 0.5)) = 54 gateways pour couvrir l'entièreté du parc.
