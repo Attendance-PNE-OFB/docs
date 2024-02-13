@@ -72,7 +72,11 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Début prospection LoRaWAN
 - Début comparaison du modèle yolov8m entrainé sur COCO et OpenImageV7
 
-## 13/02 (demi-journée)
+## 13/02
+- Point avec Emmanuelle Trehoust vis à vis de la gestion de projet (30min)
+- Fin de l'analyse du modèle yolov8m avec dataset COCO et OpenImageV7 + seuils
+- Continuation sur la prospection LoRaWAN
+- Début correction et optimisation du code de yolov8_attendance
 
 ## 14/02 (demi-journée)
 
