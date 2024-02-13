@@ -18,3 +18,8 @@
 | yolov8m OpenImageV7 0.70 | +/-11' (660s)   | 1.5%   |0.68%   |1.1%|
 | yolov8m COCO 0.80  | +/-7'15 (435s)   | 65.7%   |63.1%   |64.4%|
 | yolov8m COCO 0.90  | +/-7'15 (435s)   | 26.2%   |23.8%   |25.0%|
+
+## Conclusion
+Selon le dataset d'entraînement  (COCO ou OpenImageV7), le seuil de confiance du modèle influe différemment  sur le pourcentage de bonnes classifications.  
+Le meilleur ensemble pour le modèle yolov8m est le dataset d'entraînement COCO avec un seuil de 0.20.  
+Néanmoins, comme la différence, est très faible avec l'ensemble OpenImageV7 et seuil de 0.10. Nous avons décidé d'utiliser de base cet ensemble-là, car le dataset d'entraînement OpenImageV7 permet de classifier plus en détail nos images avec notamment les équipements de randonnée, le genre des personnes, et autres.
