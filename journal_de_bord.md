@@ -78,6 +78,7 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Continuation sur la prospection LoRaWAN
 - Début correction et optimisation du code de yolov8_attendance
 - Optimisation et mise au propre du code de comparaison de modèles
+- Commencement de la detection d'activité en fonction des classification de Yolov8m - OIV7
 
 ## 14/02 (demi-journée)
 
