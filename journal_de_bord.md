@@ -77,6 +77,7 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Fin de l'analyse du modèle yolov8m avec dataset COCO et OpenImageV7 + seuils
 - Continuation sur la prospection LoRaWAN
 - Début correction et optimisation du code de yolov8_attendance
+- Optimisation et mise au propre du code de comparaison de modèles
 
 ## 14/02 (demi-journée)
 
