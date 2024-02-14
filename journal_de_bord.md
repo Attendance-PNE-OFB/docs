@@ -81,6 +81,10 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Commencement de la detection d'activité en fonction des classification de Yolov8m - OIV7
 
 ## 14/02 (demi-journée)
+- Merges des codes en attente
+- Continuation optimisation du code de yolov8_attendance
+- Ajout de features sur le code d'extraction des métadonnées
+- Point avec Didier Donsez à propos de la prospection sur LoRaWAN
 
 ## 15/02 (demi-journée)
 
