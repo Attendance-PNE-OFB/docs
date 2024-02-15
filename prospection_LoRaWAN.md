@@ -42,7 +42,7 @@ Pour le cas d'une utilisation avec un piège photo, le coût du endnode comprend
 
 Il existe de nombreuses gateways différentes avec un nombre d'options variables. Les principales sont le nombre de canaux, autrement dit le nombre d'appareils que la gateway peut gérer en même temps. La portée varie en fonction de la taille de l'antenne. A noter qu'il est préférable d'ajouter une antenne extérieures en plus pour augmenter la portée et la qualité du signal.
 On peut construire son propre réseau de gateway ou alors payer pour utiliser le réseau d'un opérateur. Voici par exemple la couverture LoRa d'Orange :
-![Couverture LoRa Orange](https://github.com/Attendance-PNE-OFB/docs/assets/couverture_lora_orange.png)
+![Couverture LoRa Orange](https://github.com/Attendance-PNE-OFB/docs/blob/main/assets/couverture_lora_orange.png?raw=true)
 
 Il est important de prendre en compte que le coût de la gateway n'est pas le seul coût à prendre en compte. Il faut aussi prendre en compte le coût de l'installation, qui peut être très élevé, surtout dans un parc national, où il est possible que l'installation soit difficile. Dans le cas d'une installation en hauteur, il faudra prendre en compte un coût additionnel pour l'installation d'un paratonnerre.
 
