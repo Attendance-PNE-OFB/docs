@@ -33,13 +33,18 @@ Tous ces appareils ont un coût :
 
 **Endnode :**
 
-*Prix :* 10 € à 500 €
+Pour le cas d'une utilisation avec un piège photo, le coût du endnode comprendra le piège photo, la batterie, le piège photo, le cadenas, et le module de communication LoRa, ainsi que la carte IoT. Le coût total est d'environ 540€.
 
-*Facteurs de variation :*
-- Fonctionnalités: Capteurs intégrés, puissance de transmission, mémoire, etc.
-- Fabricant: Dragino, Microchip, Semtech, etc.
+*Prix :* piège photo (batterie, piège photo, cadenas, ...) + module de communication LoRa + Carte IoT (~500€ + ~10 € + ~30€)
+
 
 **Gateway :**
+
+Il existe de nombreuses gateways différentes avec un nombre d'options variables. Les principales sont le nombre de canaux, autrement dit le nombre d'appareils que la gateway peut gérer en même temps. La portée varie en fonction de la taille de l'antenne. A noter qu'il est préférable d'ajouter une antenne extérieures en plus pour augmenter la portée et la qualité du signal.
+On peut construire son propre réseau de gateway ou alors payer pour utiliser le réseau d'un opérateur. Voici par exemple la couverture LoRa d'Orange :
+![Couverture LoRa Orange](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/9a2e4c82-880f-4daa-b400-1cdbd331fd2d)
+
+Il est important de prendre en compte que le coût de la gateway n'est pas le seul coût à prendre en compte. Il faut aussi prendre en compte le coût de l'installation, qui peut être très élevé, surtout dans un parc national, où il est possible que l'installation soit difficile. Dans le cas d'une installation en hauteur, il faudra prendre en compte un coût additionnel pour l'installation d'un paratonnerre.
 
 *Prix :* 200 € à 1 000 €
 
@@ -51,11 +56,22 @@ Tous ces appareils ont un coût :
 
 **Network Server :**
 
-*Prix :* Logiciel open source gratuit ou solution commerciale à partir de 1 000 €/an
+Ici, il est possible d'utiliser 3 méthodes : 
+- Utiliser un logiciel open source, gratuit, et le faire tourner sur un serveur déjà existant, dans le cas d'une utilisation privée.
+- Faire partie de la LoRa Alliance, et utiliser un netID, qui permettra de filtrer les messages, et donc d'économiser sur les forfaits des gateways (gratuit si les démarches sont effectuées).
+- Sous-traiter un service (Amazon avec *AWS IoT* par exemple) qui va héberger le serveur pour vous.
+  
+*Prix :* Logiciel open source gratuit ou solution commerciale (AWS IoT, etc.) pour moins d'1€/mois pour un petit réseau (50 appareils, qui envoient 24 messages par jour (1 par heure)) :
+
+- 0,17$ pour les frais de connectivité
+- 0,036$ pour les frais de messagerie
+- 0,01$ pour les frais de règles (envoi de donnés toutes les heures)
+
+Soit un coût de 0,216$/mois pour tenir le service à jour.
 
 *Facteurs de variation :*
 - Nombre de nœuds finaux
-- Fonctionnalités avancées: Facturation, sécurité, etc.
+- Fonctionnalités avancées: Facturation, sécurité, règles, mises à jour, etc.
 
 **Application Serveur:**
 
@@ -67,12 +83,15 @@ Tous ces appareils ont un coût :
 
 **Join Server :**
 
+L'ajout d'un Join Server est optionnel, mais peut être utile pour gérer les join-requests des endnodes. Cela permet une meilleure gestion des endnodes, et une meilleure sécurité.
+
 *Prix :* Gratuit pour les petits réseaux, solution commerciale à partir de 50 €/mois
 
 *Facteurs de variation :*
 
 - Nombre de nœuds finaux
 - Fonctionnalités avancées: Authentification, gestion des clés, etc.
+
 Remarques :
 
 Comme le PNE possède déjà des serveurs, il est possible de les utiliser pour héberger le network server et l'application serveur, ce qui réduira le coût total du réseau.
@@ -84,3 +103,15 @@ Le parc national des Écrins a une superficie de 2 700 km². En sachant qu'on es
 Nombre de gateways = Superficie / (Portée² * (1 - Chevauchement))
 
 Il faudrait donc 2700 / (10² * (1 - 0.5)) = 54 gateways pour couvrir l'entièreté du parc.
+
+## Points à prendre en compte
+
+- **Coût :** Le coût total de l'installation est très élevé, et il est possible que le parc national des Écrins ne puisse pas se permettre une telle installation. Il est possible de réduire le coût en utilisant des serveurs déjà existants, mais cela reste un coût très élevé.
+
+- **Pollution visuelle :** L'installation de gateways dans le parc national des Écrins peut être une pollution visuelle, et peut donc être interdite par le parc.
+
+- **Installation :** L'installation des gateways peut être très difficile, et donc très coûteuse. Il est possible que l'installation soit impossible dans certaines zones du parc.
+
+- **Maintenance :** La maintenance des gateways peut être très difficile, et donc très coûteuse. Il est possible que la maintenance soit impossible dans certaines zones du parc.
+
+- **Couverture réseau :** Il est possible que la couverture réseau soit impossible dans certaines zones du parc, et donc que l'installation soit moins efficace, voir inutile.
