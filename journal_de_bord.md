@@ -88,5 +88,7 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 
 ## 15/02 (demi-journée)
 - Avancement sur la prospection LoRaWAN (rédaction + début cartographie pour une couverture LoRa)
+- Debut de refactor de la fonction de floutage
+- Debut de merge des modèles yolov8m et yolov8m-pose
 
 ## 16/02
