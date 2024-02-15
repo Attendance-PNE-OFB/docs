@@ -87,6 +87,6 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Point avec Didier Donsez à propos de la prospection sur LoRaWAN
 
 ## 15/02 (demi-journée)
-- Avancement sur la prospection LoRaWAN
+- Avancement sur la prospection LoRaWAN (rédaction + début cartographie pour une couverture LoRa)
 
 ## 16/02
