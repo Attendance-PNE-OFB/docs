@@ -94,4 +94,4 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 ## 16/02
 - Fin de l'avancement sur la prospection LoRaWAN, on a besoin de présenter le document pour voir où passer plus de temps
 - Selection et groupement des labels par catégories
-- Contage modèle pos
+- Comptage modèle pos
