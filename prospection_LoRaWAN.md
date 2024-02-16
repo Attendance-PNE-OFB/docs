@@ -112,7 +112,7 @@ Il faudrait donc 2700 / (10² * (1 - 0.5)) = 54 gateways pour couvrir l'entière
 <img width="726" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/257f9205-173f-4328-8ef8-006111dfccbd">
 
 
-Il faudrait donc prendre en compte l'installation d'autres capteurs tels que des capteurs de température, de qualité de l'air, ...
+Dans le cas d'un collaboration avec le CNRS, des coûts peuvent être réduit, mais il faudrait donc prendre en compte l'installation d'autres capteurs tels que des capteurs de température, de qualité de l'air, de pollution de l'eau, ...
 
 - **Pollution visuelle :** L'installation de gateways dans le parc national des Écrins peut être une pollution visuelle, et peut donc être interdite par le parc.
 
