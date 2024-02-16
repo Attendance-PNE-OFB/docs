@@ -33,7 +33,7 @@ Tous ces appareils ont un coût :
 
 **Endnode :**
 
-Pour le cas d'une utilisation avec un piège photo, le coût du endnode comprendra le piège photo, la batterie, le piège photo, le cadenas, et le module de communication LoRa, ainsi que la carte IoT. Le coût total est d'environ 540€.
+Pour le cas d'une utilisation avec un piège photo, le coût du endnode comprendra le piège photo, la batterie, le cadenas, et le module de communication LoRa, ainsi que la carte IoT. Le coût total est d'environ 540€.
 
 *Prix :* piège photo (batterie, piège photo, cadenas, ...) + module de communication LoRa + Carte IoT (~500€ + ~10 € + ~30€)
 
