@@ -116,6 +116,11 @@ Il faudrait donc prendre en compte l'installation d'autres capteurs tels que des
 
 - **Pollution visuelle :** L'installation de gateways dans le parc national des Écrins peut être une pollution visuelle, et peut donc être interdite par le parc.
 
+Exemple d'installation d'une gateway :
+
+![Exemple d'installation](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/f891cdd7-954c-4299-8c40-a5008245e631)
+
+
 - **Installation :** L'installation des gateways peut être très difficile, et donc très coûteuse. Il est possible que l'installation soit impossible dans certaines zones du parc.
 
 - **Maintenance :** La maintenance des gateways peut être très difficile, et donc très coûteuse. Il est possible que la maintenance soit impossible dans certaines zones du parc.
