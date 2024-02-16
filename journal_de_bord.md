@@ -92,3 +92,4 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Debut de merge des modèles yolov8m et yolov8m-pose
 
 ## 16/02
+- Fin de l'avancement sur la prospection LoRaWAN, on a besoin de présenter le document pour voir où passer plus de temps
