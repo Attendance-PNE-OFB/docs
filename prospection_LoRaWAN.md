@@ -107,7 +107,10 @@ Il faudrait donc 2700 / (10² * (1 - 0.5)) = 54 gateways pour couvrir l'entière
 
 ## Points à prendre en compte
 
-- **Coût :** Le coût total de l'installation est très élevé, et il est possible que le parc national des Écrins ne puisse pas se permettre une telle installation. Il est possible de réduire le coût en utilisant des serveurs déjà existants, mais cela reste un coût très élevé.
+- **Coût :** Le coût total de l'installation est très élevé, et il est possible que le parc national des Écrins ne puisse pas se permettre une telle installation. Il est possible de réduire le coût en utilisant des serveurs déjà existants, mais cela reste un coût très élevé. Le CNRS a actuellement un projet appelé Terra Forma qui vise à développer la récolte d'information dans des espaces naturels. Ils proposent par exemple ce genre d'installation :
+
+<img width="728" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/69202dd5-5001-4f00-b045-b014d3bda77d">
+
 
 - **Pollution visuelle :** L'installation de gateways dans le parc national des Écrins peut être une pollution visuelle, et peut donc être interdite par le parc.
 
