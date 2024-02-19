@@ -97,6 +97,10 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Comptage modèle pos
 
 ## 19/02 (demi-journée)
+- Réalisation du diapo de l'audit de mi-parcours
+- Fin de l'intégration du code de floutage
+- Mise au propre du code de CLIP, peut être encore upgrade mais pas nécessaire
+- Travail sur le comptage avec le dataset OIV7 et merge directement avec le code de yolov8_attendance
 
 ## 20/02 (demi-journée)
 
