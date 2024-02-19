@@ -95,3 +95,13 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Fin de l'avancement sur la prospection LoRaWAN, on a besoin de présenter le document pour voir où passer plus de temps
 - Selection et groupement des labels par catégories
 - Comptage modèle pos
+
+## 19/02 (demi-journée)
+
+## 20/02 (demi-journée)
+
+## 21/02
+
+## 22/02 (demi-journée)
+
+## 23/02
