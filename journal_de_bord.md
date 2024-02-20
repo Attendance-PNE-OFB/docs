@@ -103,6 +103,8 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Travail sur le comptage avec le dataset OIV7 et merge directement avec le code de yolov8_attendance
 
 ## 20/02 (demi-journée)
+- Point client, nous sommes au clair sur l'avancée
+- Travail sur le comptage avec le dataset OIV7 et merge directement avec le code de yolov8_attendance : la suite
 
 ## 21/02
 
