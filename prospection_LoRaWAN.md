@@ -131,3 +131,16 @@ Exemple d'installation d'une gateway :
 - **Maintenance :** La maintenance des gateways peut être très difficile, et donc très coûteuse. Il est possible que la maintenance soit impossible dans certaines zones du parc.
 
 - **Couverture réseau :** Il est possible que la couverture réseau soit impossible dans certaines zones du parc, et donc que l'installation soit moins efficace, voir inutile.
+
+
+## Cas du Lauvitel
+Pour couvrir le site du Lauvitel, une seule gateway pourrait suffire. Il s'agit de la gateway positionnée sur la cabane du PNE.
+Néanmoins, pour rendre plus robuste l'installation, il est fortement recommandé d'installer au minimum une deuxième gataway pour se prémunir du cas où la gateway serait en panne et donc par conséquent toute l'infrastructure qui reposerait sur une seule gateway. 
+Voici une carte qui montre trois gateways ainsi que la zone qui devrait être théoriquement couverte malgré le relief.  
+![Positions_gateways](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/e10bf9be-69b7-4254-8a13-21f7e3e443d9)
+![Lauvitel_gateways](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/74b04bea-af53-4c82-9892-aea5ffe8d67c)  
+En effet, le relief est un facteur très important dans l'estimation de la couverture d'une zone. On préférera toujours poster les gateways le plus en hauteur possible.  
+Grâce au site : [Line-of-sight](https://www.scadacore.com/tools/rf-path/rf-line-of-sight/) il est possible de visualiser le relief entre deux points et de voir si la ligne de vue est vide ou non.
+On peut également jouer avec la hauteur du point GPS pour connaître la hauteur minimale au-dessus du sol pour éviter l'atténuation du signal à cause du relief.
+Par exemple, entre la gateway de la cabane et la gateway du point de Malhaubert, il faudrait que la gateway de Malhaubert soit surélevée à 18 mètres du sol.  
+![Elevation_map](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/ac67c103-5671-44c3-9ab9-2cf39837ae72)
