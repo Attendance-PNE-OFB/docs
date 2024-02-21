@@ -49,6 +49,8 @@ Un exemple de endnode serait le suivant :
 ![Piège Photo USB](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/e32277ed-494b-4eb6-89be-2e53a2a9b584)
 
 - Carte IoT & Module LoRa : *a renseigner*
+
+  
 **Gateway :**
 
 Il existe de nombreuses gateways différentes avec un nombre d'options variables. Les principales sont le nombre de canaux, autrement dit le nombre d'appareils que la gateway peut gérer en même temps. La portée varie en fonction de la taille de l'antenne. A noter qu'il est préférable d'ajouter une antenne extérieures en plus pour augmenter la portée et la qualité du signal.
