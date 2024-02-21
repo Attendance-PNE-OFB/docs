@@ -144,3 +144,9 @@ Grâce au site : [Line-of-sight](https://www.scadacore.com/tools/rf-path/rf-line
 On peut également jouer avec la hauteur du point GPS pour connaître la hauteur minimale au-dessus du sol pour éviter l'atténuation du signal à cause du relief.
 Par exemple, entre la gateway de la cabane et la gateway du point de Malhaubert, il faudrait que la gateway de Malhaubert soit surélevée à 18 mètres du sol.  
 ![Elevation_map](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/ac67c103-5671-44c3-9ab9-2cf39837ae72)
+
+Une fois le positionnement défini, il faut déterminer le modèle de gateway. Comme décrit au-dessus, il y a de nombreux modèles de gateway différents, en voici trois avec pour chacun ses avantages et ses inconvénients comparés aux autres.
+
+Une fois le modèle de gateway choisi, il est nécessaire d'avoir une connexion de téléphonie mobile 4G pour transmettre des messages du gateway vers le serveur. Pour cela, nous avons étudié les couvertures 4G des principaux opérateurs français sur le site du Lauvitel. L'opérateur couvrant le mieux le site du Lauvitel est Bouygues.  
+![Couverture 4g](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/d940d190-382a-4408-8340-7092cc8edf75)
+
