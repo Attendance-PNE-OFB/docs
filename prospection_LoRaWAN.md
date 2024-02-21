@@ -22,7 +22,7 @@ Pour fonctionner correctement, une infrastructure LoRaWAN doit comprendre plusie
 
 - **Join Serveur :** un software qui tourne sur un serveur qui permet de gérer les join-requests des endnodes, autrement dit il gère l'ajout de nouveaux équipements dans le réseau
 
-![Architecture lorawan](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/9a2e4c82-880f-4daa-b400-1cdbd331fd2d)
+![Architecture LoRaWAN](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/9a2e4c82-880f-4daa-b400-1cdbd331fd2d)
 
 
 Ces appareils représentent tous ceux disponibles dans une installation LoRaWAN. Il est important de noter que tous ces appareils ne sont pas obligatoires pour une installation. Par exemple, le Join Serveur est optionnel.
@@ -37,6 +37,11 @@ Pour le cas d'une utilisation avec un piège photo, le coût du endnode comprend
 
 *Prix :* piège photo (batterie, piège photo, cadenas, ...) + module de communication LoRa + Carte IoT (~500€ + ~10 € + ~30€)
 
+Afin d'avoir un lien entre piège photo et carte IOT, il faudrait disposer d'une liaison filaire entre l'un et l'autre. Pour cela, il faut veiller à bien choisir ses pièges photos. Certains ne disposent pas de port USB, et donc ne seront pas adaptés. On retrouve ce type de piège pour environ 300€.
+
+Ensuite, via une connexion filaire, il sera possible de lier le piège photo et la carte IoT. Ainsi, la carte IoT pourra récupérer les photos et les traiter avec le modèle.
+
+En parlant du modèle, selon la carte il pourra être préférable d'utiliser le modèle le plus petit de yolov8, qui est yolov8n. La carte IoT pourra ensuite utiliser le modèle sur les photos récoltées, puis envoyer les informations avec LoRa. 
 
 **Gateway :**
 
@@ -57,11 +62,11 @@ Il est important de prendre en compte que le coût de la gateway n'est pas le se
 
 **Network Server :**
 
-Ici, il est possible d'utiliser 3 méthodes : 
+Ici, il est possible d'utiliser 3 méthodes :
 - Utiliser un logiciel open source, gratuit, et le faire tourner sur un serveur déjà existant, dans le cas d'une utilisation privée.
 - Faire partie de la LoRa Alliance, et utiliser un netID, qui permettra de filtrer les messages, et donc d'économiser sur les forfaits des gateways (gratuit si les démarches sont effectuées).
 - Sous-traiter un service (Amazon avec *AWS IoT* par exemple) qui va héberger le serveur pour vous.
-  
+
 *Prix :* Logiciel open source gratuit ou solution commerciale (AWS IoT, etc.) pour moins d'1€/mois pour un petit réseau (50 appareils, qui envoient 24 messages par jour (1 par heure)) :
 
 - 0,17$ pour les frais de connectivité
@@ -112,7 +117,7 @@ Il faudrait donc 2700 / (10² * (1 - 0.5)) = 54 gateways pour couvrir l'entière
 <img width="726" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/257f9205-173f-4328-8ef8-006111dfccbd">
 
 
-Dans le cas d'un collaboration avec le CNRS, des coûts peuvent être réduit, mais il faudrait donc prendre en compte l'installation d'autres capteurs tels que des capteurs de température, de qualité de l'air, de pollution de l'eau, ...
+Il faudrait donc prendre en compte l'installation d'autres capteurs tels que des capteurs de température, de qualité de l'air, ...
 
 - **Pollution visuelle :** L'installation de gateways dans le parc national des Écrins peut être une pollution visuelle, et peut donc être interdite par le parc.
 
