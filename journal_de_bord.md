@@ -107,6 +107,9 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Travail sur le comptage avec le dataset OIV7 et merge directement avec le code de yolov8_attendance : la suite
 
 ## 21/02
+- Prospection LoRa, partie endNode (exemple concrès) + partie gateway (positionnement + modèles de gateway)
+- Fini le code d'ajout du comptage des activités dans yolov8_attendance
+- Début comparaison CLIP et OIV7
 
 ## 22/02 (demi-journée)
 
