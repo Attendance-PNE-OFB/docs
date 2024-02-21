@@ -154,6 +154,16 @@ Par exemple, entre la gateway de la cabane et la gateway du point de Malhaubert,
 ![Elevation_map](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/ac67c103-5671-44c3-9ab9-2cf39837ae72)
 
 Une fois le positionnement défini, il faut déterminer le modèle de gateway. Comme décrit au-dessus, il y a de nombreux modèles de gateway différents, en voici trois avec pour chacun ses avantages et ses inconvénients comparés aux autres.
+|            | Milesight SG50-L08GL-868M-30W | KONA-MACRO-4G | Wirnet iStation |
+|------------|-----------|-----------|-----------|
+| Prix       | x€        | x€        | x€        |
+| Caractéristiques | Alimentation solaire ou externe (AC/DC) | Alimentation externe (AC/DC) | x€        |
+|            | 1 port Ethernet  | 1 port Ethernet  | Port Ethernet  |
+|            | 4G + GPS + WiFi  | 4G  | 4G + GPS |
+| Avantages | Fixation murale ou via un mât | Fixation murale ou via un mât | Kit de montage fourni |
+|           | Rechargement solaire sur batterie embarquée donc pas besoin d'installation secteur | - Item 3  | - Item 3  |
+| Inconvénients | Panneaux solaire non fourni avec | Besoin d'une installation secteur        | x€        |
+
 
 Une fois le modèle de gateway choisi, il est nécessaire d'avoir une connexion de téléphonie mobile 4G pour transmettre des messages du gateway vers le serveur. Pour cela, nous avons étudié les couvertures 4G des principaux opérateurs français sur le site du Lauvitel. L'opérateur couvrant le mieux le site du Lauvitel est Bouygues.  
 ![Couverture 4g](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/d940d190-382a-4408-8340-7092cc8edf75)
