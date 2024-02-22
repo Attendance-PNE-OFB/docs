@@ -112,5 +112,9 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Début comparaison CLIP et OIV7
 
 ## 22/02 (demi-journée)
+- Point technique avec Théo
+- Fin préparation audit
+- Début du débug FTP
+- Continuation comparaison CLIP et OIV7
 
 ## 23/02
