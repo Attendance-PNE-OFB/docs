@@ -118,3 +118,5 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Continuation comparaison CLIP et OIV7
 
 ## 23/02
+- Audit de mi-parcours
+- Organisation des tâches pour les vacances
