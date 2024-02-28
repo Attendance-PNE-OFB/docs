@@ -86,7 +86,7 @@ On a donc le devis suivant :
 
 <img width="585" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/cff2852e-b5c7-4c61-9155-236b5cc182a4">
 
-Le côut d'une installation d'une gateway va donc être entre 938,8€ et 1546,8€. Il faut ensuite prendre en compte le choix de l'antenne adaptée car celles fournies de base avec les gateways ne correspondent pas forcément à l'utilisation que l'on veut en faire.
+Le côut d'une installation d'une gateway va donc être entre 938,8€ et 1546,8€. Il faut ensuite prendre en compte le coût de l'antenne adaptée car celles fournies de base avec les gateways ne correspondent pas forcément à l'utilisation que l'on veut en faire.
 
 
 **Network Server :**
