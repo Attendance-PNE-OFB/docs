@@ -68,6 +68,27 @@ Il est important de prendre en compte que le coût de la gateway n'est pas le se
 - Portée: 2km à 10km
 - Fabricant: MultiTech, Kerlink, RAK Wireless, etc.
 
+Dans le cas d'une installation de 5 appareils sur une zone comme celle du Lac du Lauvitel, nous avons pu faire appel à l'entreprise EBDS, spécialisée dans les gateways LoRa. Nous avons donc pu leur expliquer nos besoin, et nous avons pu été conseillé avec 2 gateways différentes : 
+
+- KONA Macro IoT Gateway : La plus complète, elle dispose d'antenne 3G/4G, et GSM.
+  
+![KONA Macro IoT Gateway](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/7a108d55-5a3d-46de-9332-d5841bdf6ced)
+
+- MileSight SG50 : Une Gateway plus simple, avec antenne 4G/GSM. Elle a l'avantage d'être solaire, et donc autonome contrairement à la KONA Macro IoT.
+
+<img width="244" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/a57d63d8-2735-4150-906d-4497fbbb3882">
+
+Pour faire le choix, il sera tout d'abord judicieux de prendre en compte la couverture réseau. Pour déterminer si la couverture est bonne pour une installation LoRa, on va utiliser un testeur de réseau LoRa. Il va permettre de déterminer si l'on a besoin d'utiliser une Gateway 4G/GSM ou 3G/4G/GSM. 
+
+<img width="348" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/5c4c1dec-69db-498b-b011-9c637f228fdb">
+
+On a donc le devis suivant : 
+
+<img width="585" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/cff2852e-b5c7-4c61-9155-236b5cc182a4">
+
+Le côut d'une installation d'une gateway va donc être entre 938,8€ et 1546,8€. Il faut ensuite prendre en compte le choix de l'antenne adaptée car celles fournies de base avec les gateways ne correspondent pas forcément à l'utilisation que l'on veut en faire.
+
+
 **Network Server :**
 
 Ici, il est possible d'utiliser 3 méthodes :
