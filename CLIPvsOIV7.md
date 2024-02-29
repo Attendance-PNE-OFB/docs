@@ -25,7 +25,7 @@ Il n'est donc pas seul modèle, ce qui empêche de comparer le temps de calcul.
 Pour l'âge, on ne peut pas sortir de chiffres non plus, car les labels de OIV7 ne couvrent que deux catégories d'âges : enfant ou adulte.
 Nous ne disposons pas d'images annotées avec seulement ces deux catégories d'âges, on ne peut pas sortir de chiffres.  
 
-Pour catégoriser le genre, OIV7 est moins bon que CLIP. Il sous compte le nombre de 'male' et de 'female' comparé à la réalité.
+Pour catégoriser le genre, OIV7 est moins bon que CLIP. Il sous compte le nombre de 'male' et de 'female' comparé à la réalité.  
 Pour les activités, OIV7 est équivalent à CLIP. Il compte aussi bien le nombre de personnes qui font l'une de ces trois activités (hiking, ski/snow, vélo/vtt).
 
 En conclusion, **utiliser CLIP serait meilleur qu'utiliser OIV7 pour faire du qualitatif**.  
