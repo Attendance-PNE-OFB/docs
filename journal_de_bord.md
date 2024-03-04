@@ -126,6 +126,7 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Préparation brainstorming nom d'outil
 - Réalisation poster
 - Documentation du code
+- Début Rapport Final
 - Debug & début ajout fonction time
 
 ## 05/04
