@@ -141,7 +141,7 @@ Un exemple de endnode serait le suivant :
 - Piège photo : Browning Strike Force PRO DCL (~220€)
 ![Piège Photo USB](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/e32277ed-494b-4eb6-89be-2e53a2a9b584)
 
-- Carte IoT & Module LoRa : *a renseigner*
+- Carte IoT & Module LoRa : Une étude est en train d'être réalisée sur une Rasberry Pi. Cette section sera plus détaillée après avoir effectué cette étude.
 
 Ensuite, pour couvrir le site du Lauvitel, une seule gateway pourrait suffire. Il s'agit de la gateway positionnée sur la cabane du PNE.
 Néanmoins, pour rendre plus robuste l'installation, il est fortement recommandé d'installer au minimum une deuxième gateway pour se prémunir du cas où la gateway serait en panne et donc par conséquent toute l'infrastructure qui reposerait sur une seule gateway. 
