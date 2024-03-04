@@ -42,14 +42,6 @@ Afin d'avoir un lien entre piège photo et carte IOT, il faudrait disposer d'une
 Ensuite, via une connexion filaire, il sera possible de lier le piège photo et la carte IoT. Ainsi, la carte IoT pourra récupérer les photos et les traiter avec le modèle.
 
 En parlant du modèle, selon la carte il pourra être préférable d'utiliser le modèle le plus petit de yolov8, qui est yolov8n. La carte IoT pourra ensuite utiliser le modèle sur les photos récoltées, puis envoyer les informations avec LoRa. 
-
-Un exemple de endnode serait le suivant : 
-
-- Piège photo : Browning Strike Force PRO DCL (~220€)
-![Piège Photo USB](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/e32277ed-494b-4eb6-89be-2e53a2a9b584)
-
-- Carte IoT & Module LoRa : *a renseigner*
-
   
 **Gateway :**
 
@@ -67,27 +59,6 @@ Il est important de prendre en compte que le coût de la gateway n'est pas le se
 - Nombre de canaux: 1 à 8 canaux
 - Portée: 2km à 10km
 - Fabricant: MultiTech, Kerlink, RAK Wireless, etc.
-
-Dans le cas d'une installation de 5 appareils sur une zone comme celle du Lac du Lauvitel, nous avons pu faire appel à l'entreprise EBDS, spécialisée dans les gateways LoRa. Nous avons donc pu leur expliquer nos besoin, et nous avons pu été conseillé avec 2 gateways différentes : 
-
-- KONA Macro IoT Gateway : La plus complète, elle dispose d'antenne 3G/4G, et GSM. L'avatage de cette gateway est qu'elle est compatible avec ChipStack (voir paragraphe suivant)
-  
-![KONA Macro IoT Gateway](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/7a108d55-5a3d-46de-9332-d5841bdf6ced)
-
-- MileSight SG50 : Une Gateway plus simple, avec antenne 4G/GSM. Elle a l'avantage d'être solaire, et donc autonome contrairement à la KONA Macro IoT.
-
-<img width="244" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/a57d63d8-2735-4150-906d-4497fbbb3882">
-
-Pour faire le choix, il sera tout d'abord judicieux de prendre en compte la couverture réseau. Pour déterminer si la couverture est bonne pour une installation LoRa, on va utiliser un testeur de réseau LoRa. 
-
-<img width="348" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/5c4c1dec-69db-498b-b011-9c637f228fdb">
-
-On a donc le devis suivant : 
-
-<img width="585" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/cff2852e-b5c7-4c61-9155-236b5cc182a4">
-
-Le côut d'une installation d'une gateway va donc être entre 938,8€ et 1546,8€. Il faut ensuite prendre en compte le coût de l'antenne adaptée car celles fournies de base avec les gateways ne correspondent pas forcément à l'utilisation que l'on veut en faire. Le coût moyen d'une antenne peut varier entre 50€ et 150€. Ce coût n'est donc pas négligeable. 
-
 
 **Network Server :**
 
@@ -163,7 +134,16 @@ Exemple d'installation d'une gateway :
 
 
 ## Cas du Lauvitel
-Pour couvrir le site du Lauvitel, une seule gateway pourrait suffire. Il s'agit de la gateway positionnée sur la cabane du PNE.
+
+Premièrement, il est important de choisir un appareil compatible avec une carte IoT. Pour cela, il faut que le piège photo possède un port USB.
+Un exemple de endnode serait le suivant : 
+
+- Piège photo : Browning Strike Force PRO DCL (~220€)
+![Piège Photo USB](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/e32277ed-494b-4eb6-89be-2e53a2a9b584)
+
+- Carte IoT & Module LoRa : *a renseigner*
+
+Ensuite, pour couvrir le site du Lauvitel, une seule gateway pourrait suffire. Il s'agit de la gateway positionnée sur la cabane du PNE.
 Néanmoins, pour rendre plus robuste l'installation, il est fortement recommandé d'installer au minimum une deuxième gateway pour se prémunir du cas où la gateway serait en panne et donc par conséquent toute l'infrastructure qui reposerait sur une seule gateway. 
 Voici une carte qui montre trois gateways ainsi que la zone qui devrait être théoriquement couverte malgré le relief.  
 ![Positions_gateways](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/e10bf9be-69b7-4254-8a13-21f7e3e443d9)
@@ -177,15 +157,15 @@ Par exemple, entre la gateway de la cabane et la gateway du point de Malhaubert,
 Une fois le positionnement défini, il faut déterminer le modèle de gateway. Comme décrit au-dessus, il y a de nombreux modèles de gateway différents, en voici trois avec pour chacun ses avantages et ses inconvénients comparés aux autres.
 |            | Milesight SG50-L08GL-868M-30W | KONA-MACRO-4G | Wirnet iStation |
 |------------|-----------|-----------|-----------|
-| Prix       | 653€        | 1160€        | x€        |
-| Caractéristiques | Alimentation solaire ou externe (AC/DC) | Alimentation externe (AC/DC) | x€        |
-|            | 1 port Ethernet  | 1 port Ethernet  | Port Ethernet  |
-|            | 4G + GPS + WiFi  | 4G/3G  | 4G + GPS |
+| Prix       | 653€        | 1160€        | 515€  |
+| Caractéristiques | Alimentation solaire ou externe (AC/DC) | Alimentation externe (AC/DC) | Alimentation externe (AC/DC) |
+|            | 1 port Ethernet  | 1 port Ethernet  | 4G  |
+|            | 4G + GPS + WiFi  | 4G/3G  | |
 | Avantages | Fixation murale ou via un mât | Fixation murale ou via un mât | Kit de montage fourni |
-|           | Rechargement solaire sur batterie embarquée donc pas besoin d'installation secteur | - Item 3  | - Item 3  |
-| Inconvénients | Pas compatible 3G | Besoin d'une installation secteur        | x€        |
-
-
+|           | Rechargement solaire sur batterie embarquée donc pas besoin d'installation secteur |   |   |
+| Inconvénients | Pas compatible 3G | Besoin d'une installation secteur |pas de connectivité Ethernet|
+| Aperçu | <img width="244" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/a57d63d8-2735-4150-906d-4497fbbb3882">| ![KONA Macro IoT Gateway](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/7a108d55-5a3d-46de-9332-d5841bdf6ced) | ![Wirnet Station](https://market.thingpark.com/media/catalog/product/cache/496f4b8029935cd1a435219c05e3e604/0/1/01-produit-4_3.png) |
+  
 Une fois le modèle de gateway choisi, il est nécessaire d'avoir une connexion de téléphonie mobile 4G pour transmettre des messages du gateway vers le serveur. Pour cela, nous avons étudié les couvertures 4G des principaux opérateurs français sur le site du Lauvitel. L'opérateur couvrant le mieux le site du Lauvitel est Bouygues.  
 ![Couverture 4g](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/d940d190-382a-4408-8340-7092cc8edf75)
 
