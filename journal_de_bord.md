@@ -120,3 +120,13 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 ## 23/02
 - Audit de mi-parcours
 - Organisation des tâches pour les vacances
+
+## 04/04
+- préparation brainstorpming nom d'outil
+## 05/04
+
+## 06/04 (demi-journée)
+
+## 07/04 (demi-journée)
+
+## 08/04
