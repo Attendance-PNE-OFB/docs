@@ -122,7 +122,12 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Organisation des tâches pour les vacances
 
 ## 04/04
-- préparation brainstorpming nom d'outil
+- Point client
+- Préparation brainstorming nom d'outil
+- Réalisation poster
+- Documentation du code
+- Debug & début ajout fonction time
+
 ## 05/04
 
 ## 06/04 (demi-journée)
