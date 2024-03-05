@@ -51,7 +51,7 @@ Périmètre du projet proposé en première intention :
 
 - Volet prospectif :
   - Prospecter et estimer le coût d'objectif d'un scénario à moyen terme de remplacement des capteurs photos par le développement d'une solution d'IA embarquée avec transmission LoRaWAN pour 50 objets (développement du capteur intégrant l'IA et déploiement d’un mode de transmission à distance)
-  > Changement à 5 objets sur une zone précise suite à un entretien.
+  -> Changement à 5 objets sur une zone précise suite à un entretien.
 
   - Prospecter pour la réalisation d'une solution de dénombrements de tentes de bivouac sur photos (set de donnée disponible au besoin).
 
@@ -69,7 +69,7 @@ Périmètre du projet proposé en première intention :
 
 En ce qui concerne l'architecture technique, nous avons la contrainte de devoir réaliser un outil utilisable sur la chaine de travail actuelle.
 
-[image chaine de travail à rajouter sur Github]
+![chaine de travail du PNE](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/7cd3f7df-b42a-431c-a6cd-a94f7382500f)
 
 Tout d'abord, cette chaine de travail commence avec les pièges photos. Ces pièges sont utilisés pour prendre des photos des visiteurs lorsqu'ils passent devant l'appareil. Ces photos sont stockées sur une carte SD propre à chaque appareils. Ces données sont ensuite récoltées à la main et déposées sur le serveur FTP.
 
@@ -88,7 +88,7 @@ Ensuite, nous avons fait tourner les différents modèles, et comparé les sorti
 
 Nous avons donc trouvé les résultats suivants :
 
-[images comparaison modèles]
+<img width="1080" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/a3dd4bad-c31f-47eb-bb7e-9cb1ecdddb52">
 
 On s'est donc rendu compte que les dernières versions de YOLO étaient plus précises, mais surtout bien plus optimisées, avec un temps de traitement bien plus petit. Après une réunion avec les porteurs du projet, il a été décider que l'on utiliserait la version "M" de YOLOv8. Cette version permet d'atteindre une précision très bonne, tout en restant assez léger.
 
@@ -103,8 +103,6 @@ Pendant ce temps, une autre équipe étudiait l'analyse par CLIP. Cet outil nous
 Il a fallu alors trouver une autre solution qui pourrait remplacer CLIP pour les catégories où la précision n'était pas assez bonne. Pour cela, nous avons vu qu'il existait des modèles de YOLOv8 entrainé sur différentes bases de données, avec différents objets pouvant être détectés. Jusqu'ici, nous utilisions un modèle entrainé sur la base de données COCO, qui permet de détecter 60 objets. Il existe aussi un autre modèle, cette fois ci entrainé sur la base de donnée d'OpenImages V7, une base de données de Google, qui permet de détecter plus de 600 objets.
 
 L'avantage potentiel d'utiliser ce deuxième modèle est que parmi les objets détectés, on peut en conclure un certain type d'activité. Par exemple, si le modèle reconnait des équipements de randonnées, avec un sac à dos, on pourra en conclure que le passant fait de la randonnée. Dans le cas où le modèle détecte des roues de vélo, un vélo ou un casque de vélo, alors on pourra en conclure que le passant est un cycliste. Ainsi, en posant un certain nombre de règle, il serait possible de détecter différentes activités (randonnée, VTT, ski de randonnée).
-
-xs
 
 ## Gestion de projet (méthode, planning prévisionnel et effectif, gestion des risques, rôles des membres ...)
 
