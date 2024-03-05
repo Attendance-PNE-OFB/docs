@@ -50,7 +50,9 @@ Périmètre du projet proposé en première intention :
 - Prospective et recommandations sur l'évolution de la chaîne de travail à moyen terme : remplacement des capteurs photos par IA embarquée, serveurs, …
 
 - Volet prospectif :
-  - Prospecter et estimer le coût d'objectif d'un scénario à moyen terme de remplacement des capteurs photos par le développement d'une solution d'IA embarquée avec transmission LoRaWAN pour 50 objets (développement du capteur intégrant l'IA et déploiement d’un mode de transmission à distance) (changement à 5 objets sur une zone précise suite à un entretien).
+  - Prospecter et estimer le coût d'objectif d'un scénario à moyen terme de remplacement des capteurs photos par le développement d'une solution d'IA embarquée avec transmission LoRaWAN pour 50 objets (développement du capteur intégrant l'IA et déploiement d’un mode de transmission à distance)
+  > Changement à 5 objets sur une zone précise suite à un entretien.
+
   - Prospecter pour la réalisation d'une solution de dénombrements de tentes de bivouac sur photos (set de donnée disponible au besoin).
 
 
@@ -61,13 +63,29 @@ Périmètre du projet proposé en première intention :
 
 - CLIP : CLIP est un réseau de neurones qui apprend efficacement les concepts visuels de la supervision du langage naturel. CLIP peut être appliqué à n’importe quel repère de classification visuelle en fournissant simplement les noms des catégories visuelles à reconnaître, de la même façon que les capacités « zero-shot » du GPT-2 et du GPT-3. C'est un outil développé par OpenAI.
 
+- Ist SOS : Logiciel de visualisation de données, utile pour voir les résultats des analyses.
+
 ## Architecture techniques
+
+En ce qui concerne l'architecture technique, nous avons la contrainte de devoir réaliser un outil utilisable sur la chaine de travail actuelle.
+
+[image chaine de travail à rajouter sur Github]
+
+Tout d'abord, cette chaine de travail commence avec les pièges photos. Ces pièges sont utilisés pour prendre des photos des visiteurs lorsqu'ils passent devant l'appareil. Ces photos sont stockées sur une carte SD propre à chaque appareils. Ces données sont ensuite récoltées à la main et déposées sur le serveur FTP.
+
+Cette chaine de travail est composée de 3 serveurs. Le premier est un serveur FTP. Les photos récoltés des pièges photos sont stockées sur ce serveur.Ensuite, il y a un serveur data, qui permet de faire tourner le modèle, de récolter les données des photos sous forme de CSV, et de flouter les photos traitées afin de respecter la vie privée des visiteurs. Ces données de sorties CSV sont ensuite envoyées vers un dernier serveur d'administration et de visualisation de données. Ce dernier serveur permet d'utiliser les données CSV pour les visualiser avec l'outil Ist SOS.
 
 ## Réalisations techniques
 
 ## Gestion de projet (méthode, planning prévisionnel et effectif, gestion des risques, rôles des membres ...)
 
 ## Outils (collaboration, CD/CI ...)
+
+En ce qui concerne les outils d'organisation, nous avons centralisé au maximum les informations. Pour cela, nous avons utilisé la fonctionnalité Projet de GitHub. Cela permet d'avoir une liste de toutes les tâches à faire, celles qui sont en cours de développement et celles terminées. Nous avons aussi la possibilité de réaliser une roadmap, ce qui permet d'ajouter une vision temporelle de nos tâches.
+
+En ce qui concerne notre organisation, nous avons plusieurs dépôts. Un dépôt avec la documentation, sur lequel n'importe quel membre du groupe peut commit sans faire de PL.
+
+En revanche, sur les dépôts de développement, nous avons mis en place un système de pull request, sur lequel au moins 2 membres du groupe doivent approuver la pull request avant que le commit soit effectué.
 
 ## Métriques logiciels : lignes de code, langages, performance, temps ingénieur (d'après vos journaux), la répartition des lignes de code et des commits en pourcentage entre les membres du projet ...)
 
