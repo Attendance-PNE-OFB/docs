@@ -69,7 +69,9 @@ Périmètre du projet proposé en première intention :
 
 En ce qui concerne l'architecture technique, nous avons la contrainte de devoir réaliser un outil utilisable sur la chaine de travail actuelle.
 
-[image chaine de travail à rajouter sur Github]
+![image](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/b820e44d-9c65-4e78-a617-6e39ca19d16d)
+
+
 
 Tout d'abord, cette chaine de travail commence avec les pièges photos. Ces pièges sont utilisés pour prendre des photos des visiteurs lorsqu'ils passent devant l'appareil. Ces photos sont stockées sur une carte SD propre à chaque appareils. Ces données sont ensuite récoltées à la main et déposées sur le serveur FTP.
 
