@@ -6,11 +6,11 @@
 
 Notre projet est porté par le Parc National des Écrins et par l'OFB (Office Français de la Biodiversité). L'objectif est de connaître la fréquentation des parcs par les visiteurs et usagers afin d’assurer au mieux leurs missions de protection, de connaissance, ainsi que d’accueil du public.
 
-Les données de flux physiques (ecocompteurs, enquêtes…) collectés avec des méthodes traditionnelles demandent a être consolidées en terme d’analyse et confrontés avec des solutions innovantes en devenir (big data, informations géographiques, IA...).
+Les données de flux physiques (eco-compteurs, enquêtes…) collectés avec des méthodes traditionnelles demandent a être consolidées en terme d’analyse et confrontés avec des solutions innovantes en devenir (big data, informations géographiques, IA...).
 
 En 2022, dans le contexte de hausse de la fréquentation post covid le Parc national des Ecrins a redéfini ses objectifs en matière de suivi des flux de visiteurs.
 
-Cela a amené le Parc national des Ecrins à collaborer avec l’OFB à l’été 2023 pour expérimenter et consolider une solution de suivi innovante par l’utilisation de l’Intelligence artificielle associée à des capteurs photos. Solution mise au point par Mathieu Garel, chercheur à l’OFB, et qui a été testée (robustesse, sur 4 sites de terrain), comparée à d’autres solutions (Deepfaune...) et qui a fait l’objet de développements pour la consolider et l’intégrer dans une chaîne de travail propre au PNE. La chaîne de travail testée en 2023 va de la collecte de terrain, en passant par le floutage des visages, la détection, la classification, la bancarisation et la visualisation des données dans l’application Ist SOS.
+Cela a amené le Parc national des Ecrins à collaborer avec l’OFB à l’été 2023 pour expérimenter et consolider une solution de suivi innovante par l’utilisation de l’Intelligence artificielle associée à des capteurs photos. Solution mise au point par Mathieu Garel, chercheur à l’OFB, et qui a été testée (robustesse, sur 4 sites de terrain), comparée à d’autres solutions (Deepfaune...) et qui a fait l’objet de développements pour la consolider et l’intégrer dans une chaîne de travail propre au PNE. La chaîne de travail testée en 2023 va de la collecte de terrain, en passant par le floutage des visages, la détection, la classification, et la visualisation des données dans l’application Ist SOS.
 
 A noter que le cœur du projet repose sur un script de détection automatique d'objets (ici les "humains") dans des images, basé sur le modèle YOLOv4 entraîné sur le jeu de données COCO. Ce script utilise le modèle de réseau de neurones yolov4 pour détecter des objets dans des images provenant d'un serveur FTP ou d'un répertoire local. Il permet ainsi de compter automatiquement, sans visualisation par l'utilisateur, le nombre de personnes présentes sur des images, notamment dans le cadre de suivis de la fréquentation réalisés avec des pièges photos à déclenchement automatique. Le script compte le nombre maximum d'humains au sein de chaque séquence, retenu comme taille de groupe. Le travail d’expérimentation et de consolidation a été mené dans le cadre du stage d’Aurélien Coste, 4ème année à Polytech Grenoble de mai à août 2023. En complément, voir le rapport de stage d'Aurélien Coste qui a travaillé en 2023 sur la version 0.2.0, ainsi que son support de restitution.
 
@@ -59,7 +59,7 @@ Périmètre du projet proposé en première intention :
 
 ## Technologies employées
 
-- YOLOV8 : dernier modèle de détection d'Ultralytics (actuellement, la version 9 est sortie). Ce modèle est plus optimisé et performant que YOLOV4, et permet de générer un squelette sur un corps humain, en y identifiant des points (articulations, et points du visage).
+- YOLOv8 : dernier modèle de détection d'Ultralytics (actuellement, la version 9 est sortie). Ce modèle est plus optimisé et performant que YOLOv4, et permet de générer un squelette sur un corps humain, en y identifiant des points (articulations, et points du visage).
 
 - CLIP : CLIP est un réseau de neurones qui apprend efficacement les concepts visuels de la supervision du langage naturel. CLIP peut être appliqué à n’importe quel repère de classification visuelle en fournissant simplement les noms des catégories visuelles à reconnaître, de la même façon que les capacités « zero-shot » du GPT-2 et du GPT-3. C'est un outil développé par OpenAI.
 
@@ -69,15 +69,42 @@ Périmètre du projet proposé en première intention :
 
 En ce qui concerne l'architecture technique, nous avons la contrainte de devoir réaliser un outil utilisable sur la chaine de travail actuelle.
 
-![image](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/b820e44d-9c65-4e78-a617-6e39ca19d16d)
-
-
+[image chaine de travail à rajouter sur Github]
 
 Tout d'abord, cette chaine de travail commence avec les pièges photos. Ces pièges sont utilisés pour prendre des photos des visiteurs lorsqu'ils passent devant l'appareil. Ces photos sont stockées sur une carte SD propre à chaque appareils. Ces données sont ensuite récoltées à la main et déposées sur le serveur FTP.
 
 Cette chaine de travail est composée de 3 serveurs. Le premier est un serveur FTP. Les photos récoltés des pièges photos sont stockées sur ce serveur.Ensuite, il y a un serveur data, qui permet de faire tourner le modèle, de récolter les données des photos sous forme de CSV, et de flouter les photos traitées afin de respecter la vie privée des visiteurs. Ces données de sorties CSV sont ensuite envoyées vers un dernier serveur d'administration et de visualisation de données. Ce dernier serveur permet d'utiliser les données CSV pour les visualiser avec l'outil Ist SOS.
 
 ## Réalisations techniques
+
+Tout d'abord, nous avons du prendre en main les technologies étudiées. Lors de nos recherches, nous avons constaté que les technologies évoluaient rapidement, et que Ultralytics avaient sortie une version bien plus optimisée et performante que YOLOv4. Nous avons donc décidé de les comparer, en faisant une étude.
+
+Pour cela, il nous fallait tout d'abord un jeu de donnée du parc, qui soit annoté pour que l'on puisse gagner du temps. Nous nous sommes donc rendus dans les locaux de Mathieu Garel, chercheur à l'OFB. Nous avons pu y récupérer les jeux de données annotés. Par la suite, nous avons pu créer un code qui nous permettait d'extraire les métadonnées des photos, et de les répertorier dans un fichier JSON.
+
+Il faut savoir que YOLOv8 existe avec différentes tailles de modèles. Certains modèles sont très légers, mais moins précis, et d'autres plus lourds, mais donc plus précis.
+Il existe 5 versions, de la plus légère à la plus lourde : N (nano), S (small), M (medium), L (large), X (extra-large).
+
+Ensuite, nous avons fait tourner les différents modèles, et comparé les sorties des modèles aux annotations des photos, effectuées par des humains.
+
+Nous avons donc trouvé les résultats suivants :
+
+[images comparaison modèles]
+
+On s'est donc rendu compte que les dernières versions de YOLO étaient plus précises, mais surtout bien plus optimisées, avec un temps de traitement bien plus petit. Après une réunion avec les porteurs du projet, il a été décider que l'on utiliserait la version "M" de YOLOv8. Cette version permet d'atteindre une précision très bonne, tout en restant assez léger.
+
+Une fois le modèle choisi, une partie de l'équipe s'est penchée sur la détection de la direction des passants. Pour cela, on utilise une variation du modèle de YOLOv8, qui s'appelle YOLOv8-pos, et qui permet de positionner des points du squelette sur un corps humains détecté. On retrouve ici un exemple de squelette généré par le modèle :
+
+[image squelette modèle v8 pose]
+
+En posant des règles sur la positions des jambes, des épaules ou encore des yeux, nous arrivons donc à déterminer la direction de chaque personne sur une photo (ce qui n'était jusqu'ici impossible).
+
+Pendant ce temps, une autre équipe étudiait l'analyse par CLIP. Cet outil nous permettrait de déterminer le sexe des passants, leur catégorie d'âge, ou encore leur type d'activité. Des tests ont donc été effectués pour déterminer la précision de l'outil. Nous avons pu voir que pour certaines choses, comme les activités, la précision était satisfaisante, mais pour d'autres critères, tels que l'âge, la précision n'est pas assez bonne pour utiliser l'outil.
+
+Il a fallu alors trouver une autre solution qui pourrait remplacer CLIP pour les catégories où la précision n'était pas assez bonne. Pour cela, nous avons vu qu'il existait des modèles de YOLOv8 entrainé sur différentes bases de données, avec différents objets pouvant être détectés. Jusqu'ici, nous utilisions un modèle entrainé sur la base de données COCO, qui permet de détecter 60 objets. Il existe aussi un autre modèle, cette fois ci entrainé sur la base de donnée d'OpenImages V7, une base de données de Google, qui permet de détecter plus de 600 objets.
+
+L'avantage potentiel d'utiliser ce deuxième modèle est que parmi les objets détectés, on peut en conclure un certain type d'activité. Par exemple, si le modèle reconnait des équipements de randonnées, avec un sac à dos, on pourra en conclure que le passant fait de la randonnée. Dans le cas où le modèle détecte des roues de vélo, un vélo ou un casque de vélo, alors on pourra en conclure que le passant est un cycliste. Ainsi, en posant un certain nombre de règle, il serait possible de détecter différentes activités (randonnée, VTT, ski de randonnée).
+
+xs
 
 ## Gestion de projet (méthode, planning prévisionnel et effectif, gestion des risques, rôles des membres ...)
 
