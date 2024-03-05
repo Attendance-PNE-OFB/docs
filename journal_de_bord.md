@@ -130,6 +130,10 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Debug & début ajout fonction time
 
 ## 05/04
+- Fin ajout fonction time, il ne reste plus qu'à régler des détails
+- Présentation lycéens
+- Rédaction rapport final en cours
+- Fin poster
 
 ## 06/04 (demi-journée)
 
