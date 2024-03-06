@@ -136,6 +136,8 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Fin poster
 
 ## 06/04 (demi-journée)
+- Correction poster avec prof d'anglais
+- Debug & clarrification de l'install de yolov8_attendance
 
 ## 07/04 (demi-journée)
 
