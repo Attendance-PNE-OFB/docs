@@ -140,5 +140,8 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Debug & clarrification de l'install de yolov8_attendance
 
 ## 07/04 (demi-journée)
+- Point avec Théo sur l'install de yolov8_attendance sur le serveur du PNE
+- Début des correctifs par rapport à ce qu'il à demandé
+- Modification et rendu du poster
 
 ## 08/04
