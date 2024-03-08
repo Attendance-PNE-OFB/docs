@@ -55,11 +55,12 @@ Dans le détail, voici les tâches que l'on nous a confiées:
 
 ## Technologies employées
 
-- YOLOv8 : dernier modèle de détection d'Ultralytics (actuellement, la version 9 est sortie). Ce modèle est plus optimisé et performant que YOLOv4, et permet de générer un squelette sur un corps humain, en y identifiant des points (articulations, et points du visage).
+- YOLOv8 : il s'agit d'un ensemble de modèles de classification, de détection, de segmentation, de suivi (tracking) et de détermination de squelette humain (pose) développé par d'Ultralytics.
+  Ces modèles sont plus performants que le modèle actuellement utilisé dans yolov4-attendance. De plus, la diversité des modèles nous permet d'apporter des informations supplémentaires telles que le sens de passage grâce au modèle YOLOv8-pose qui sait générer un squelette sur un corps humain, en y identifiant des points (articulations, et points du visage).
 
 - CLIP : CLIP est un réseau de neurones qui apprend efficacement les concepts visuels de la supervision du langage naturel. CLIP peut être appliqué à n’importe quel repère de classification visuelle en fournissant simplement les noms des catégories visuelles à reconnaître, de la même façon que les capacités « zero-shot » du GPT-2 et du GPT-3. C'est un outil développé par OpenAI.
 
-- Ist SOS : Logiciel de visualisation de données, utile pour voir les résultats des analyses.
+- istSOS : Logiciel de visualisation de données, utile pour voir les résultats des analyses. Outil déjà utilisé par le PNE, d'où son utilisation dans le projet.
 
 ## Architecture techniques
 
