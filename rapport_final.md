@@ -68,9 +68,10 @@ En ce qui concerne l'architecture technique, nous avons la contrainte de devoir 
 
 ![chaine de travail du PNE](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/7cd3f7df-b42a-431c-a6cd-a94f7382500f)
 
-Tout d'abord, cette chaine de travail commence avec les pièges photos. Ces pièges sont utilisés pour prendre des photos des visiteurs lorsqu'ils passent devant l'appareil. Ces photos sont stockées sur une carte SD propre à chaque appareils. Ces données sont ensuite récoltées à la main et déposées sur le serveur FTP.
+Tout d'abord, cette chaîne de travail commence avec les pièges photos. Ces pièges sont utilisés pour prendre des photos des visiteurs lorsqu'ils passent devant l'appareil. Ces photos sont stockées sur une carte SD propre à chaque appareil. Ces données sont ensuite récoltées à la main et déposées sur le serveur FTP.
 
-Cette chaine de travail est composée de 3 serveurs. Le premier est un serveur FTP. Les photos récoltés des pièges photos sont stockées sur ce serveur.Ensuite, il y a un serveur data, qui permet de faire tourner le modèle, de récolter les données des photos sous forme de CSV, et de flouter les photos traitées afin de respecter la vie privée des visiteurs. Ces données de sorties CSV sont ensuite envoyées vers un dernier serveur d'administration et de visualisation de données. Ce dernier serveur permet d'utiliser les données CSV pour les visualiser avec l'outil Ist SOS.
+Cette chaîne de travail est composée de 3 serveurs. Le premier est un serveur FTP. Les photos récoltées des pièges photos sont stockées sur ce serveur. Ensuite, il y a un serveur data, qui permet de faire tourner le modèle, de récolter les données des photos sous forme de CSV, et de flouter les photos traitées afin de respecter la vie privée des visiteurs. Ces données de sorties CSV sont ensuite envoyées vers un dernier serveur d'administration et de visualisation de données. Ce dernier serveur permet d'utiliser les données CSV pour les visualiser avec l'outil istSOS.
+À préciser qu'il ne s’agit pas physiquement de serveurs différents, ce sont en réalité trois machines virtuelles sur un puissant serveur physique.
 
 ## Réalisations techniques
 
