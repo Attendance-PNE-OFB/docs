@@ -145,3 +145,6 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Modification et rendu du poster
 
 ## 08/04
+- Avancé sur le code DCD
+- Début préparation soutenance finale
+- Rédaction rapport de projet
