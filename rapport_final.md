@@ -19,22 +19,18 @@ Les usages des données de fréquentation sont diverses :
 - suivi des flux à des fins d’observation,
 - travaux de recherche appliquée pour étudier les interactions faune / pratiques récréatives (cas de l’OFB dans les massifs de Belledonne et des Bauges par ex.).
 
-La solution de suivi de la fréquentation par capteurs photos associé à de l’IA permet de répondre à des besoins des gestionnaires d’espaces protégés et à des projets de recherche appliquée en espaces naturels. Le projet que nous proposons pour les 5ème année (S10) présente un fort potentiel d’utilisation par d’autres structures que le PNE et l’OFB. A l’issue de cette nouvelle phase de R&D, l’essaimage de l’usage de cette solution pourrait se faire à court-moyen terme dans le cadre de réseaux constitués (Parcs nationaux, conservatoires d’espaces naturels, réserves naturelles, organismes de recherche...).
+La solution de suivi de la fréquentation par capteurs photos associé à de l’IA permet de répondre à des besoins des gestionnaires d’espaces protégés et à des projets de recherche appliquée en espaces naturels. Le projet présente un fort potentiel d’utilisation par d’autres structures que le PNE et l’OFB. A l’issue de cette nouvelle phase de R&D, l’essaimage de l’usage de cette solution pourrait se faire à court-moyen terme dans le cadre de réseaux constitués (Parcs nationaux, conservatoires d’espaces naturels, réserves naturelles, organismes de recherche...).
 
-L'objectif du projet est d'approfondir l’expérimentation menée en 2023 et poursuivre la consolidation de l’outil mis au point par Mathieu Garel en intégrant notamment les derniers développements (floutage des cadres de détection plutôt que les visages – en lien avec les développements aussi menés par d’autres solutions qui reposent sur l’IA).
+L'objectif du projet est d'approfondir l’expérimentation menée en 2023 et poursuivre la consolidation de l’outil mis au point par Mathieu Garel en intégrant notamment les derniers développements (floutage des cadres de détection plutôt que les visages).
 
 Il s’agira de mener un travail exploratoire afin de :
 - renforcer et tester la fiabilité de la solution,
 - de développer l’outil (sens de passage, upgradage de briques, etc.),
-- de tester l’utilisation de l’outil dans un contexte d’étude précis à partir de jeu de données fournies et d’explorer de nouvelles pistes d’utilisation de la donnée (modèle mathématique/cartographique, data visualisation...),
+- de tester l’utilisation de l’outil dans un contexte d’étude précis à partir de jeu de données fournies,
 - et de proposer des scénarios d’évolution tel que l’utilisation de l’IA embarquée et l’IoT.
 
-En ce qui concerne le travail attendu, voici les consignes que l'on nous a donné :
-
-
-A partir de l’existant et d’un travail de prospective le PNE et l’OFB ont identifié des pistes de travail qu’il conviendra de préciser lors du lancement et de la phase de définition de la roadmap. Le Parc national souhaiterait que le projet se déroule en méthode Agile.
-
-Périmètre du projet proposé en première intention :
+Le Parc national a souhaité que le projet se déroule en méthode Agile.
+Dans le détail, voici les tâches que l'on nous a confiées:
 
 - Réaliser une analyse de l'outil développé en mode prototype à l'été 2023 (résultats, analyse "critique" du processus et recommandations d'améliorations) + ré investiguer les outils équivalents, y compris commerciaux
 - Analyser, critiquer et redéfinir au besoin l’architecture globale du système et de la chaîne de travail (objets, script d'IA, floutage des images, serveurs, data visualisation...),
