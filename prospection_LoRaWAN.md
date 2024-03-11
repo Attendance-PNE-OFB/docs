@@ -188,3 +188,6 @@ En ce qui concerne le **Network server**, pour une petite installation comme cel
 Cet outil est très simple d'utilisation et permet de connecter tout type d'appareils. Malheureusement, il ne prend en compte que certaines marques de Gateways, dont Tektelic. La gateway MileSight SG50 ne sera peut être pas aussi facile à utiliser.
 
 Toutefois, si la gestion du Network Server ne veut pas être effectuée par le Parc, alors il reste possible d'utiliser des services, tels que ceux d'Amazon AWS IoT. Le coût de revient pour une petite installation telle que celle du Lauvitel reviendra très peu cher (Rappel: 0,216$/mois pour 50 appareils qui émettent un message toutes les heures).
+
+Cette installation correspondrait à une installation avec un coût faible, car tout est géré par le Parc. Dans le cas où l'on souhaite faire de la sous-traitance et passer par une entreprise pour l'installation et la maintenance des appareils, gateways et serveur, comme Actility (https://www.actility.com/fr/), qui est le leader mondial des installation IoT. Ils seront donc capables d'installer les appareils qui répondront le plus au besoin, de manière optimale. L'avantage d'un service comme celui ci est que l'on dispose d'un service client, et de la possibilité d'avoir de la maintenance facilement. Evidemment, ce genre le service est le plus couteux.
+
