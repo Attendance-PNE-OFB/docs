@@ -24,6 +24,7 @@ Pour fonctionner correctement, une infrastructure LoRaWAN doit comprendre plusie
 
 ![Architecture LoRaWAN](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/9a2e4c82-880f-4daa-b400-1cdbd331fd2d)
 
+<img width="500" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145433511/9a2e4c82-880f-4daa-b400-1cdbd331fd2d">
 
 Ces appareils représentent tous ceux disponibles dans une installation LoRaWAN. Il est important de noter que tous ces appareils ne sont pas obligatoires pour une installation. Par exemple, le Join Serveur est optionnel.
 
