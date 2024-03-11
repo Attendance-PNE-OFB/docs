@@ -75,11 +75,11 @@ Cette chaîne de travail est composée de 3 serveurs. Le premier est un serveur 
 
 ## Réalisations techniques
 
-Tout d'abord, nous avons du prendre en main les technologies étudiées. Lors de nos recherches, nous avons constaté que les technologies évoluaient rapidement, et que Ultralytics avaient sortie une version bien plus optimisée et performante que YOLOv4. Nous avons donc décidé de les comparer, en faisant une étude.
+Tout d'abord, nous avons dû prendre en main les technologies étudiées. Lors de nos recherches, nous avons constaté que les technologies évoluaient rapidement, et que Ultralytics avaient sorti une version bien plus optimisée et performante que YOLOv4. Nous avons donc décidé de les comparer, en faisant une étude.
 
-Pour cela, il nous fallait tout d'abord un jeu de donnée du parc, qui soit annoté pour que l'on puisse gagner du temps. Nous nous sommes donc rendus dans les locaux de Mathieu Garel, chercheur à l'OFB. Nous avons pu y récupérer les jeux de données annotés. Par la suite, nous avons pu créer un code qui nous permettait d'extraire les métadonnées des photos, et de les répertorier dans un fichier JSON.
+Pour cela, nous avions besoin d'un jeu de donnée, si possible du parc ou de l'OFB. Ces images doivent être annotées pour que l'on puisse extraire de ces images, des valeurs fiables pour comparer avec ce que le modèle trouve. Nous pourrions également annoter des images si nous n'en avons pas assez, mais cela prend énormément de temps et 6 semaines, c'est court. Nous nous sommes donc rendu dans les locaux de Mathieu Garel, chercheur à l'OFB. Nous avons pu y récupérer les jeux de données annotés. Par la suite, nous avons pu créer un code qui nous permettait d'extraire les métadonnées des photos, et de les répertorier dans un fichier JSON.
 
-Il faut savoir que YOLOv8 existe avec différentes tailles de modèles. Certains modèles sont très légers, mais moins précis, et d'autres plus lourds, mais donc plus précis.
+Maintenant, que nous avons des données, il faut choisir les modèles à comparer. Il faut savoir que YOLOv8 existe dans plusieurs formats de différentes tailles. Certains modèles sont très légers, mais moins précis, et d'autres plus lourds, mais plus précis.
 Il existe 5 versions, de la plus légère à la plus lourde : N (nano), S (small), M (medium), L (large), X (extra-large).
 
 Ensuite, nous avons fait tourner les différents modèles, et comparé les sorties des modèles aux annotations des photos, effectuées par des humains.
@@ -88,13 +88,13 @@ Nous avons donc trouvé les résultats suivants :
 
 <img width="1080" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/a3dd4bad-c31f-47eb-bb7e-9cb1ecdddb52">
 
-On s'est donc rendu compte que les dernières versions de YOLO étaient plus précises, mais surtout bien plus optimisées, avec un temps de traitement bien plus petit. Après une réunion avec les porteurs du projet, il a été décider que l'on utiliserait la version "M" de YOLOv8. Cette version permet d'atteindre une précision très bonne, tout en restant assez léger.
+On s'est donc rendu compte que les dernières versions de YOLO étaient plus précises, mais surtout bien plus efficaces, avec un temps de traitement bien plus petit. Après une réunion avec les porteurs du projet, il a été décidé que l'on utiliserait en version de base, la version "M" de YOLOv8. Cette version permet d'atteindre une précision très bonne, tout en restant assez léger. Bien sûr, les utilisateurs du code peuvent choisir le modèle qui leur convient le mieux, cela via un fichier de configuration et une documentation.
 
-Une fois le modèle choisi, une partie de l'équipe s'est penchée sur la détection de la direction des passants. Pour cela, on utilise une variation du modèle de YOLOv8, qui s'appelle YOLOv8-pos, et qui permet de positionner des points du squelette sur un corps humains détecté. On retrouve ici un exemple de squelette généré par le modèle :
+Une fois le modèle choisi, une partie de l'équipe s'est penchée sur la détection de la direction des passants. Pour cela, on utilise une variation du modèle de YOLOv8, qui s'appelle YOLOv8-pose, et qui permet de positionner des points du squelette sur un corps humain détecté. On retrouve ici un exemple de squelette généré par le modèle :
 
-[image squelette modèle v8 pose]
+![image squelette modèle v8 pose](assets/yolov8-pose.png)
 
-En posant des règles sur la positions des jambes, des épaules ou encore des yeux, nous arrivons donc à déterminer la direction de chaque personne sur une photo (ce qui n'était jusqu'ici impossible).
+En posant des règles sur la position des jambes, des épaules ou encore des yeux, nous arrivons donc à déterminer la direction de chaque personne sur une photo (ce qui était jusqu'ici impossible).
 
 Pendant ce temps, une autre équipe étudiait l'analyse par CLIP. Cet outil nous permettrait de déterminer le sexe des passants, leur catégorie d'âge, ou encore leur type d'activité. Des tests ont donc été effectués pour déterminer la précision de l'outil. Nous avons pu voir que pour certaines choses, comme les activités, la précision était satisfaisante, mais pour d'autres critères, tels que l'âge, la précision n'est pas assez bonne pour utiliser l'outil.
 
