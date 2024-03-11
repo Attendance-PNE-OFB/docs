@@ -22,8 +22,6 @@ Pour fonctionner correctement, une infrastructure LoRaWAN doit comprendre plusie
 
 - **Join Serveur :** un software qui tourne sur un serveur qui permet de gérer les join-requests des endnodes, autrement dit il gère l'ajout de nouveaux équipements dans le réseau
 
-![Architecture LoRaWAN](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/9a2e4c82-880f-4daa-b400-1cdbd331fd2d)
-
 <img width="500" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145433511/9a2e4c82-880f-4daa-b400-1cdbd331fd2d">
 
 Ces appareils représentent tous ceux disponibles dans une installation LoRaWAN. Il est important de noter que tous ces appareils ne sont pas obligatoires pour une installation. Par exemple, le Join Serveur est optionnel.
@@ -49,7 +47,7 @@ En parlant du modèle, selon la carte il pourra être préférable d'utiliser le
 Il existe de nombreuses gateways différentes avec un nombre d'options variables. Les principales sont le nombre de canaux, autrement dit le nombre d'appareils que la gateway peut gérer en même temps. La portée varie en fonction de la taille de l'antenne. A noter qu'il est préférable d'ajouter une antenne extérieures en plus pour augmenter la portée et la qualité du signal.
 On peut construire son propre réseau de gateway ou alors payer pour utiliser le réseau d'un opérateur. Voici par exemple la couverture LoRa d'Orange au niveau du Parc National des Écrins :
 
-![Couverture LoRa Orange](https://github.com/Attendance-PNE-OFB/docs/blob/main/assets/couverture_lora_orange.png?raw=true)
+<img width="500" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/blob/main/assets/couverture_lora_orange.png?raw=true">
 
 Il est important de prendre en compte que le coût de la gateway n'est pas le seul coût à prendre en compte. Il faut aussi prendre en compte le coût de l'installation, qui peut être très élevé, surtout dans un parc national, où il est possible que l'installation soit difficile. Dans le cas d'une installation en hauteur, il faudra prendre en compte un coût additionnel pour l'installation d'un paratonnerre.
 
@@ -115,7 +113,7 @@ Il faudrait donc prendre en compte l'installation d'autres capteurs tels que des
 
 Exemple d'installation d'une gateway :
 
-![Exemple d'installation](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/f891cdd7-954c-4299-8c40-a5008245e631)
+<img width="500" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/f891cdd7-954c-4299-8c40-a5008245e631">
 
 
 - **Installation :** L'installation des gateways peut être très difficile, et donc très coûteuse. Il est possible que l'installation soit impossible dans certaines zones du parc.
@@ -131,7 +129,7 @@ Premièrement, il est important de choisir un appareil compatible avec une carte
 Un exemple de endnode serait le suivant :
 
 - Piège photo : Browning Strike Force PRO DCL (~220€)
-![Piège Photo USB](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/e32277ed-494b-4eb6-89be-2e53a2a9b584)
+<img width="500" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/e32277ed-494b-4eb6-89be-2e53a2a9b584">
 
 - Carte IoT & Module LoRa : Une étude est en train d'être réalisée sur une Rasberry Pi. Cette section sera plus détaillée après avoir effectué cette étude.
   - D'après plusieurs retours d'expérience, il est possible d'établir un endnode "facilement" (des compétences d'électronique sont un +) avec une carte Rasberry pi et un module Lora.
@@ -139,12 +137,14 @@ Un exemple de endnode serait le suivant :
 
     - Carte Rasberry Pi Zero WH(~30€) :
    
-      ![image](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/f29f4d4a-44dd-49f9-8cd2-d2a00c42848b)
+      <img width="500" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/f29f4d4a-44dd-49f9-8cd2-d2a00c42848b">
+      
+
    
       
     - Module Lora (~26€) :
-   
-      ![image](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/3104ed24-549b-42ec-ad86-545713cd0240)
+      
+      <img width="500" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/3104ed24-549b-42ec-ad86-545713cd0240">
 
 
 Ensuite, pour couvrir le site du Lauvitel, une seule gateway pourrait suffire. Il s'agit de la gateway positionnée sur la cabane du PNE.
@@ -153,12 +153,11 @@ Voici une carte qui montre trois gateways ainsi que la zone qui devrait être th
 
 Il est important de prendre en compte la couverture des gateways. Si un appareil est situé en limite de couverture d'une gateway, alors il se peut que la communication entre l'appareil et la gateway ne soit pas bonne. Il pourrait y avoir des interférences ou des pertes de signal en fonction des conditions. Il est alors judicieux de positionner une seconde gateway, avec un chevauchement, ce qui permet une couverture optimale.
 
-![Positions_gateways](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/e10bf9be-69b7-4254-8a13-21f7e3e443d9)
+<img width="500" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145433511/e10bf9be-69b7-4254-8a13-21f7e3e443d9">
 
 Ici, on a une représentation de la couverture théorique des gateways pour une distance d'émission/réception de 5km (on a choisi 5km qui est la moins bonne couverture, souvent retrouvée dans des cas urbains. En théorie, en zone rurale les appareils peuvent communiquer jusqu'à 15km, mais en prenant en compte le relief, ce signal peut être réduit).
 
-![Lauvitel_gateways](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/74b04bea-af53-4c82-9892-aea5ffe8d67c)  
-
+<img width="500" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145433511/74b04bea-af53-4c82-9892-aea5ffe8d67c">
 
 En effet, le relief est un facteur très important dans l'estimation de la couverture d'une zone. On préférera toujours poster les gateways le plus en hauteur possible.  
 
@@ -167,7 +166,8 @@ Grâce au site : [Line-of-sight](https://www.scadacore.com/tools/rf-path/rf-line
 On peut également jouer avec la hauteur du point GPS pour connaître la hauteur minimale au-dessus du sol pour éviter l'atténuation du signal à cause du relief.
 Par exemple, entre la gateway de la cabane et la gateway du point de Malhaubert, il faudrait que la gateway de Malhaubert soit surélevée à 18 mètres du sol.  
 
-![Elevation_map](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/ac67c103-5671-44c3-9ab9-2cf39837ae72)
+<img width="500" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145433511/ac67c103-5671-44c3-9ab9-2cf39837ae72">
+
 
 Une fois le positionnement défini, il faut déterminer le modèle de gateway. Comme décrit au-dessus, il y a de nombreux modèles de gateway différents, en voici trois avec pour chacun ses avantages et ses inconvénients comparés aux autres.
 
@@ -180,11 +180,11 @@ Une fois le positionnement défini, il faut déterminer le modèle de gateway. C
 | Avantages | Fixation murale ou via un mât | Fixation murale ou via un mât | Kit de montage fourni |
 |           | Rechargement solaire sur batterie embarquée donc pas besoin d'installation secteur |   |   |
 | Inconvénients | Pas compatible 3G | Besoin d'une installation secteur |pas de connectivité Ethernet|
-| Aperçu | <img width="244" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/a57d63d8-2735-4150-906d-4497fbbb3882">| ![KONA Macro IoT Gateway](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/7a108d55-5a3d-46de-9332-d5841bdf6ced) | ![Wirnet Station](https://market.thingpark.com/media/catalog/product/cache/496f4b8029935cd1a435219c05e3e604/0/1/01-produit-4_3.png) |
+| Aperçu | <img width="244" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/a57d63d8-2735-4150-906d-4497fbbb3882">| <img width="244" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145437462/7a108d55-5a3d-46de-9332-d5841bdf6ced"> |<img width="244" alt="image" src="https://market.thingpark.com/media/catalog/product/cache/496f4b8029935cd1a435219c05e3e604/0/1/01-produit-4_3.png">|
 
 Une fois le modèle de gateway choisi, il est nécessaire d'avoir une connexion de téléphonie mobile 4G pour transmettre des messages du gateway vers le serveur. Pour cela, nous avons étudié les couvertures 4G des principaux opérateurs français sur le site du Lauvitel. L'opérateur couvrant le mieux le site du Lauvitel est Bouygues.  
 
-![Couverture 4g](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/d940d190-382a-4408-8340-7092cc8edf75)
+<img width="244" alt="image" src="https://github.com/Attendance-PNE-OFB/docs/assets/145433511/d940d190-382a-4408-8340-7092cc8edf75">
 
 Pour tester ce réseau et choisir au mieux l'emplacement des gateways, il est important d'utiliser un testeur de réseaux, qui est vendu par exemple par Lora. Il va permettre de déterminer si l'on a besoin d'utiliser une Gateway 4G/GSM ou 3G/4G/GSM.
 
