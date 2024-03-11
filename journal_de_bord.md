@@ -121,7 +121,7 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Audit de mi-parcours
 - Organisation des tâches pour les vacances
 
-## 04/04
+## 04/03
 - Point client
 - Préparation brainstorming nom d'outil
 - Réalisation poster
@@ -129,22 +129,27 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Début Rapport Final
 - Debug & début ajout fonction time
 
-## 05/04
+## 05/03
 - Fin ajout fonction time, il ne reste plus qu'à régler des détails
 - Présentation lycéens
 - Rédaction rapport final en cours
 - Fin poster
 
-## 06/04 (demi-journée)
+## 06/03 (demi-journée)
 - Correction poster avec prof d'anglais
 - Debug & clarrification de l'install de yolov8_attendance
 
-## 07/04 (demi-journée)
+## 07/03 (demi-journée)
 - Point avec Théo sur l'install de yolov8_attendance sur le serveur du PNE
 - Début des correctifs par rapport à ce qu'il à demandé
 - Modification et rendu du poster
 
-## 08/04
+## 08/03
 - Avancé sur le code DCD
 - Début préparation soutenance finale
 - Rédaction rapport de projet
+
+## 11/03
+## 12/03 (demi-journée)
+## 13/03
+## 14/03
