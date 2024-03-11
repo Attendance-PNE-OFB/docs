@@ -133,6 +133,13 @@ Un exemple de endnode serait le suivant :
 ![Piège Photo USB](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/e32277ed-494b-4eb6-89be-2e53a2a9b584)
 
 - Carte IoT & Module LoRa : Une étude est en train d'être réalisée sur une Rasberry Pi. Cette section sera plus détaillée après avoir effectué cette étude.
+  - D'après plusieurs retours d'expérience, il est possible d'établir un endnode "facilement" (des compétences d'électronique sont un +) avec une carte Rasberry pi et un module Lora.
+    Voici des exemples de hardware :
+
+    - Carte Rasberry Pi Zero WH(~30€) : ![image](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/f29f4d4a-44dd-49f9-8cd2-d2a00c42848b)
+    - 
+    - Module Lora (~26€) : ![image](https://github.com/Attendance-PNE-OFB/docs/assets/145437462/3104ed24-549b-42ec-ad86-545713cd0240)
+
 
 Ensuite, pour couvrir le site du Lauvitel, une seule gateway pourrait suffire. Il s'agit de la gateway positionnée sur la cabane du PNE.
 Néanmoins, pour rendre plus robuste l'installation, il est fortement recommandé d'installer au minimum une deuxième gateway pour se prémunir du cas où la gateway serait en panne et donc par conséquent toute l'infrastructure qui reposerait sur une seule gateway.
