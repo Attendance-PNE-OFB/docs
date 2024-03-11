@@ -110,6 +110,17 @@ Pendant qu'une partie de l'équipe travaillait sur le développement de la solut
 
 ## Gestion de projet (méthode, planning prévisionnel et effectif, gestion des risques, rôles des membres ...)
 
+Ce projet étant très court et en considérant que nous avions des compétences techniques très similaires, nous avons décidé d'organiser notre groupe horizontalement, en d'autres termes, chaque personne a touché à tout dans ce projet sans attribuer de rôles spécifiquess à quiconque. Cependant nous avons tout de même nommé Aurélien Coste chef du projet puisqu'il s'agit de la suite directe de son stage de l'année dernière, il a donc permis de faciliter l'interface entre l'équipe et le client ainsi que d'orienter nos solutions dans la bonne direction grace à sa connaissance de l'environnement de travail du parc des Ecrins.
+D'un point de vue méthodologique, nous avons opté pour l'agile avec un livrable toutes les semaines au client. Ce qui nous a permis de réaliser notre solution de la manière la plus personnalisée possible pour le client ainsi que de répondre précisément à leurs besoins. Afin de nous accorder temporellement, nous utilisions l'outil de gestion de projet intégré à github. Ce dernier nous a permis de créer un Gantt dans lequel nous ajoutions nos tâches ainsi que les personnes assignées à ces dernières, dans un second temps notre client ainsi que tous les collaborateurs pouvaient accéder à notre Gantt en lecture, ce qui permettait des échange encore plus rapide et avec une transparence parfaite sur le projet.
+
+<span style="color: red;">INSERER GANTT</span>
+
+Une des forces de notre organisation a été notre état des lieux initial, l'analyse des technologies, des outils et des risques liés à ce projet. Grâce a cette étude nous avons pu adapter notre travail afin de faciliter le développement de la solution.
+
+<span style="color: red;">INSERER RISQUES</span>
+
+
+
 ## Outils (collaboration, CD/CI ...)
 
 En ce qui concerne les outils d'organisation, nous avons centralisé au maximum les informations. Pour cela, nous avons utilisé la fonctionnalité Projet de GitHub. Cela permet d'avoir une liste de toutes les tâches à faire, celles qui sont en cours de développement et celles terminées. Nous avons aussi la possibilité de réaliser une roadmap, ce qui permet d'ajouter une vision temporelle de nos tâches.
