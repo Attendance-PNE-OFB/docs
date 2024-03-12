@@ -140,12 +140,19 @@ Notre projet comprenait aussi une partie prospective sur une installation LoRaWA
 
 En ce qui concerne la répartition du projet, nous estimons que chacun a fourni une quantité de travail égale. Certains ont fait plus de code pendant que d'autres ont plus travaillé sur la partie documentation et rédactionnelle de la prospection LoRaWAN. Nous avons très peu fait de travail personnel en dehors des heures attribuées au projet (5% du projet a dû être fait en travail supplémentaire)
 
-Pour les commmits, au total (code et rédaction) nous avons la répartition suivante : 
+Pour les commmits, au total (seulement liés au code) nous avons la répartition suivante : 
 
 - Lony : 5
 - Aurélien : 29
 - Esteban : 46
 - Florian : 17
 
-Il faut prendre en compte que les commits de rédaction sont bien moins importants que les commits de code, ils correspondent à des modifications de journal de bord, ou de modification de document.
 ## Conclusion (Retour d'expérience)
+
+Concernant nos retours, nous avons été très contents de poursuivre le projet qu'avait entamé Aurélien. Le fait de l'avoir dans l'équipe a permi de prendre en main plus facilement l'outil pour ceux qui ne le connaissait pas. Le fait d'avoir des porteurs de projet disponibles chaque semaine pour des meetings a aussi grandement aidé à avancer de manière efficace. 
+
+Ce projet était concret, et nous estimons que c'est ce qui fait sa force. De plus, il est possible que des articles scientifiques soient rédigés sur cet outil, ce qui est très gratifiant pour le groupe et notre travail.
+
+Si nous avions un seul regret sur ce projet, c'est d'avoir été aussi limité sur le temps, car 6 semaines ne nous ont pas permis de pousser les études plus loins et d'intégrer des modèles comme CLIP à notre outil, ce qui aurait pu améliorer d'avantage la précision. Cependant, nous restons très content du livrable que nous avons pu réaliser au cours des 6 semaines. 
+
+En conclusion, nous sommes très heureux d'avoir pu répondre à la demande du client, qui nous ont d'ailleurs félicité pour notre travail réalisé de manière très professionnel.
