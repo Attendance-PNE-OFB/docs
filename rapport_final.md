@@ -120,8 +120,6 @@ Une des forces de notre organisation a été notre état des lieux initial, l'an
 
 <span style="color: red;">INSERER RISQUES</span>
 
-
-
 ## Outils (collaboration, CD/CI ...)
 
 En ce qui concerne les outils d'organisation, nous avons centralisé au maximum les informations. Pour cela, nous avons utilisé la fonctionnalité Projet de GitHub. Cela permet d'avoir une liste de toutes les tâches à faire, celles qui sont en cours de développement et celles terminées. Nous avons aussi la possibilité de réaliser une roadmap, ce qui permet d'ajouter une vision temporelle de nos tâches.
@@ -132,4 +130,22 @@ En revanche, sur les dépôts de développement, nous avons mis en place un syst
 
 ## Métriques logiciels : lignes de code, langages, performance, temps ingénieur (d'après vos journaux), la répartition des lignes de code et des commits en pourcentage entre les membres du projet ...)
 
+A propos des lignes de code, avons environ 700 lignes de code sur le programme principal. À côté de ça, nous avons aussi d'autres programmes qui permettent par exemple l'extraction des métadonnées des images (qui contiennent les annotations du Parc). Ce programme fait environ 150 lignes, et le programme qui permet de détecter la direction des passants environ 200 lignes.
+
+Lors du projet, nous avons aussi dû faire de la documentation, notamment sur la comparaison des différents modèles, parmi eux, nous avons réalisé une comparaison sur tous les différents modèles de YOLOv8 et sur le modèle utilisé précédemment sur YOLOv4.
+
+En ce qui concerne la détection du sexe, des activités et de l'âge, nous avions aussi mené une enquête sur la précision de l'outil CLIP et du modèle entrainé sur le dataset de Google OpenImages V7.
+
+Notre projet comprenait aussi une partie prospective sur une installation LoRaWAN au sein du parc, afin de se passer de l'intervention humaine pour chercher les photos et les uploader sur un serveur. Cette analyse aura pris beaucoup de temps lors de notre projet car nous avons essayé d'être le plus complet, à la fois sur l'explication du fonctionnement, que sur le choix technique des gateways (nous avons fait appel à EBDS, une entreprise spécialisée dans l'équipement LoRa). Ce document leur a permis une bonne compréhension du sujet, d'avoir un aperçu des différentes problématiques liées à ce genre d'installation, mais aussi tous les avantages que cela pourrait avoir (pas de stockage de photos, pas d'intervention humaine sur place).
+
+En ce qui concerne la répartition du projet, nous estimons que chacun a fourni une quantité de travail égale. Certains ont fait plus de code pendant que d'autres ont plus travaillé sur la partie documentation et rédactionnelle de la prospection LoRaWAN. Nous avons très peu fait de travail personnel en dehors des heures attribuées au projet (5% du projet a dû être fait en travail supplémentaire)
+
+Pour les commmits, au total (code et rédaction) nous avons la répartition suivante : 
+
+- Lony : 18
+- Aurélien : 95
+- Esteban : 60
+- Florian : 77
+
+Il faut prendre en compte que les commits de rédaction sont bien moins importants que les commits de code, ils correspondent à des modifications de journal de bord, ou de modification de document.
 ## Conclusion (Retour d'expérience)
