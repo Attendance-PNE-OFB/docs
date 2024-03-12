@@ -147,6 +147,8 @@ Pour les commmits, au total (seulement liés au code) nous avons la répartition
 - Esteban : 46
 - Florian : 17
 
+Ces commits offrent un aperçu de la participation de chacun pour le code, mais ne représentent en rien la participation de chacun pour le projet. Étant donné qu'il y a eu une grande partie rédactionnelle dans ce projet, certains d'entre nous ont dû passer plus de temps sur de la documentation et la prospection LoRaWAN.
+
 ## Conclusion (Retour d'expérience)
 
 Concernant nos retours, nous avons été très contents de poursuivre le projet qu'avait entamé Aurélien. Le fait de l'avoir dans l'équipe a permi de prendre en main plus facilement l'outil pour ceux qui ne le connaissait pas. Le fait d'avoir des porteurs de projet disponibles chaque semaine pour des meetings a aussi grandement aidé à avancer de manière efficace. 
