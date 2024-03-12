@@ -142,10 +142,10 @@ En ce qui concerne la répartition du projet, nous estimons que chacun a fourni 
 
 Pour les commmits, au total (code et rédaction) nous avons la répartition suivante : 
 
-- Lony : 18
-- Aurélien : 95
-- Esteban : 60
-- Florian : 77
+- Lony : 5
+- Aurélien : 29
+- Esteban : 46
+- Florian : 17
 
 Il faut prendre en compte que les commits de rédaction sont bien moins importants que les commits de code, ils correspondent à des modifications de journal de bord, ou de modification de document.
 ## Conclusion (Retour d'expérience)
