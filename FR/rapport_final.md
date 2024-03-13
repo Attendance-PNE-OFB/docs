@@ -111,25 +111,79 @@ Pendant qu'une partie de l'équipe travaillait sur le développement de la solut
 
 ## Gestion de projet (méthode, planning prévisionnel et effectif, gestion des risques, rôles des membres ...)
 
-Ce projet étant très court et en considérant que nous avions des compétences techniques très similaires, nous avons décidé d'organiser notre groupe horizontalement, en d'autres termes, chaque personne a touché à tout dans ce projet sans attribuer de rôles spécifiquess à quiconque. Cependant nous avons tout de même nommé Aurélien Coste chef du projet puisqu'il s'agit de la suite directe de son stage de l'année dernière, il a donc permis de faciliter l'interface entre l'équipe et le client ainsi que d'orienter nos solutions dans la bonne direction grace à sa connaissance de l'environnement de travail du parc des Ecrins.
-D'un point de vue méthodologique, nous avons opté pour l'agile avec un livrable toutes les semaines au client. Ce qui nous a permis de réaliser notre solution de la manière la plus personnalisée possible pour le client ainsi que de répondre précisément à leurs besoins. Afin de nous accorder temporellement, nous utilisions l'outil de gestion de projet intégré à github. Ce dernier nous a permis de créer un Gantt dans lequel nous ajoutions nos tâches ainsi que les personnes assignées à ces dernières, dans un second temps notre client ainsi que tous les collaborateurs pouvaient accéder à notre Gantt en lecture, ce qui permettait des échange encore plus rapide et avec une transparence parfaite sur le projet.
+Ce projet étant très court et en considérant que nous avions des compétences techniques, très similaires, nous avons décidé d'organiser notre groupe horizontalement, en d'autres termes, chaque personne a touché à tout dans ce projet sans attribuer de rôles spécifiques à quiconque. Cependant, nous avons tout de même nommé Aurélien Coste chef du projet puisqu'il s'agit de la suite directe de son stage de l'année dernière, il a donc permis de faciliter l'interface entre l'équipe et le client ainsi que d'orienter nos solutions dans la bonne direction grâce à sa connaissance de l'environnement de travail du parc des Écrins tout en organisant le travail de l’équipe.  
+D'un point de vue méthodologique, nous avons opté pour l'agile avec un point hebdomadaire avec nos clients. Ce qui nous a permis de réaliser notre solution de la manière la plus proche possible aux besoins du client. Afin de nous accorder temporellement, nous avons utilisé l'outil de gestion de projet intégré à GitHub. Ce dernier nous a permis de créer un Gantt dans lequel nous ajoutions nos tâches ainsi que les personnes assignées à ces dernières, dans un second temps, notre client ainsi que tous les collaborateurs pouvaient accéder à notre Gantt en lecture, ce qui permettait des échanges encore plus rapides et avec une transparence parfaite sur le projet.
 
-<span style="color: red;">INSERER GANTT</span>
+![Roadmap](https://github.com/Attendance-PNE-OFB/docs/assets/145433511/6b0d74be-e3b3-42d8-88dc-8612a1226c11)
 
-Une des forces de notre organisation a été notre état des lieux initial, l'analyse des technologies, des outils et des risques liés à ce projet. Grâce a cette étude nous avons pu adapter notre travail afin de faciliter le développement de la solution.
+Une des forces de notre organisation a été notre état des lieux initial, ainsi que notre analyse des technologies, des outils et des risques liés à ce projet. Grâce à cette étude, nous avons pu adapter notre travail afin de faciliter le développement de la solution.
 
-<span style="color: red;">INSERER RISQUES</span>
+**Matrice des risques**  
+<img width="680" alt="Matrice des risques" src="https://github.com/Attendance-PNE-OFB/docs/blob/main/MPI/Matrice%20de%20risques.png">    
 
+**Mitigation des risques**  
+<img width="680" alt="Mitigation des risques" src="https://github.com/Attendance-PNE-OFB/docs/blob/main/MPI/Mitigation%20des%20risques.png">  
 
 
 ## Outils (collaboration, CD/CI ...)
 
-En ce qui concerne les outils d'organisation, nous avons centralisé au maximum les informations. Pour cela, nous avons utilisé la fonctionnalité Projet de GitHub. Cela permet d'avoir une liste de toutes les tâches à faire, celles qui sont en cours de développement et celles terminées. Nous avons aussi la possibilité de réaliser une roadmap, ce qui permet d'ajouter une vision temporelle de nos tâches.
-
+En ce qui concerne les outils d'organisation, nous avons centralisé au maximum les informations. Pour cela, nous avons utilisé la fonctionnalité *Projet* de GitHub. Cela permet d'avoir une liste de toutes les tâches à faire, celles qui sont en cours de développement et celles terminées (un backlog). Nous avons aussi la possibilité de réaliser une *Roadmap*, ce qui permet d'ajouter une vision temporelle de nos tâches.  
 En ce qui concerne notre organisation, nous avons plusieurs dépôts. Un dépôt avec la documentation, sur lequel n'importe quel membre du groupe peut commit sans faire de PL.
-
 En revanche, sur les dépôts de développement, nous avons mis en place un système de pull request, sur lequel au moins 2 membres du groupe doivent approuver la pull request avant que le commit soit effectué.
 
 ## Métriques logiciels : lignes de code, langages, performance, temps ingénieur (d'après vos journaux), la répartition des lignes de code et des commits en pourcentage entre les membres du projet ...)
 
+À propos des lignes de code, nous avons environ 700 lignes de code sur le programme principal. À côté de ça, nous avons aussi d'autres programmes qui permettent par exemple l'extraction des métadonnées des images (qui contiennent les annotations de l'OFB). Ce programme fait environ 150 lignes, et le programme qui permet de détecter la direction des passants environ 200 lignes. Il y a également quelques lignes de codes sur la comparaison des modèles et sur l'utilisation de CLIP, environ 100 lignes pour le tout.  
+
+Lors du projet, nous avons aussi dû faire de la documentation, notamment sur la comparaison des différents modèles, parmi eux, nous avons réalisé une comparaison sur tous les différents modèles de YOLOv8 et sur le modèle utilisé précédemment sur YOLOv4.
+
+En ce qui concerne la détection du sexe, des activités et de l'âge, nous avions aussi mené une enquête sur la précision de l'outil CLIP et du modèle entraîné sur le dataset de Google OpenImages V7.
+
+Notre projet comprenait aussi une partie prospective sur une installation LoRaWAN au sein du parc, afin de se passer de l'intervention humaine pour récupérer les photos et les uploader sur un serveur. Cette analyse aura pris beaucoup de temps lors de notre projet, car nous avons essayé d'être le plus complet, à la fois sur l'explication du fonctionnement, que sur le choix technique des gateways (nous avons fait appel à EBDS, une entreprise spécialisée dans l'équipement LoRa). Ce document leur a permis une bonne compréhension du sujet, d'avoir un aperçu des différentes problématiques liées à ce genre d'installation, mais aussi tous les avantages que cela pourrait avoir (pas de stockage de photos, pas d'intervention humaine sur place).
+
+En ce qui concerne la répartition du projet, nous estimons que chacun a fourni une quantité de travail égale. Certains ont fait plus de code pendant que d'autres ont plus travaillé sur la partie documentation et rédactionnelle de la prospection LoRaWAN. Nous avons très peu fait de travail personnel en dehors des heures attribuées au projet (~5% du projet a dû être fait en travail supplémentaire).
+
+Pour les commmits, au total (seulement liés au code) nous avons la répartition suivante :
+
+- Lony : 5
+- Aurélien : 29
+- Esteban : 46
+- Florian : 17
+
+Ces commits offrent un aperçu de la participation de chacun pour le code, mais ne représentent en rien la participation de chacun pour le projet. Étant donné qu'il y a eu une grande partie rédactionnelle dans ce projet, certains d'entre nous ont dû passer plus de temps sur de la documentation et la prospection LoRaWAN.
+
 ## Conclusion (Retour d'expérience)
+
+Concernant nos retours, nous avons été très contents de poursuivre le projet qu'avait entamé Aurélien. Le fait de l'avoir dans l'équipe a permis de prendre en main plus facilement l'outil pour ceux qui ne le connaissait pas. Le fait d'avoir des porteurs de projet disponibles chaque semaine pour des meetings a aussi grandement aidé à avancer de manière efficace dans la bonne direction.
+
+Ce projet était concret, et nous estimons que c'est ce qui fait sa force. De plus, il est possible qu'un article scientifique soit rédigé sur ce sujet et sur cet outil, ce qui est très gratifiant pour le groupe et notre travail.
+
+Si nous avions un seul regret sur ce projet, c'est d'avoir été aussi limité sur le temps, car 6 semaines ne nous ont pas permis de pousser les analyses au maximum et d'intégrer des modèles comme CLIP à notre outil, ce qui aurait pu améliorer davantage la précision des informations qualitatives. Cependant, nous restons très contents du livrable que nous avons pu réaliser au cours des 6 semaines.
+
+En conclusion, nous sommes très heureux d'avoir pu répondre à la demande des clients, qui nous ont d'ailleurs félicité pour notre travail réalisé de manière très professionnel.
+
+## Glossaire
+- PNE : Parc National des Écrins
+- OFB : Office Français de la Biodiversité
+- IA : Intelligence Artificielle
+- YOLO : You Only Look Once
+- COCO : Common Objects in Context
+- FTP : File Transfert Protocol
+- RGPD : Règlement Général sur la Protection des Données
+- CLIP : Contrastive Language-Image Pretraining
+- API : Application Programming Interface
+- CSV : Comma-Separated Values
+- JSON : JavaScript Object Notation
+- OIV7 : OpenImageV7
+
+## Références
+
+- Ultralytics - YOLOv8 - https://docs.ultralytics.com/fr/models/yolov8/
+- EBDS - Gateways LoRaWAN - https://www.ebds.eu/produits/equipements/gateways-lorawan
+- PNE/OFB - YOLOv4 Attendance - https://github.com/Attendance-PNE-OFB/yolov4-attendance
+- Ultralytics - Pose Estimation with YOLOv8 - https://www.youtube.com/watch?v=Y28xXQmju64
+- OpenAI - CLIP - https://openai.com/research/clip
+- COCO Dataset - https://cocodataset.org/#home
+- Google - OpenImagesV7 - https://storage.googleapis.com/openimages/web/index.html
+- Aurélien COSTE - rapport de stage - https://data.ecrins-parcnational.fr/documents/stages/2023-09-rapport-stage-Aurelien-Coste-photos-IA-frequentation.pdf
+- Aurélien COSTE - présentation de stage - https://data.ecrins-parcnational.fr/documents/stages/2023-09-restitution-stage-Aurelien-Coste-photos-IA-frequentation.pdf

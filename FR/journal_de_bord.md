@@ -150,6 +150,17 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Rédaction rapport de projet
 
 ## 11/03
+- Point client
+- Avancé sur la présentation de la souteance finale et du rapport
+- Fin debug code et ajout floutage
+- Fin prospection LoRa
+
 ## 12/03 (demi-journée)
-## 13/03
+- Avancée soutenance final
+- Avancée rapport final
+- Réalisation démo
+- Fin flyer
+- Documentation anglaise pour l'outil
+
+## 13/03 (demi-journée)
 ## 14/03
