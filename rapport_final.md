@@ -162,7 +162,21 @@ Si nous avions un seul regret sur ce projet, c'est d'avoir été aussi limité s
 
 En conclusion, nous sommes très heureux d'avoir pu répondre à la demande des clients, qui nous ont d'ailleurs félicité pour notre travail réalisé de manière très professionnel.
 
-## References
+## Glossaire
+- PNE : Parc National des Écrins
+- OFB : Office Français de la Biodiversité
+- IA : Intelligence Artificielle
+- YOLO : You Only Look Once
+- COCO : Common Objects in Context
+- FTP : File Transfert Protocol
+- RGPD : Règlement Général sur la Protection des Données
+- CLIP : Contrastive Language-Image Pretraining
+- API : Application Programming Interface
+- CSV : Comma-Separated Values
+- JSON : JavaScript Object Notation
+- OIV7 : OpenImageV7
+
+## Références
 
 - Ultralytics - YOLOv8 - https://docs.ultralytics.com/fr/models/yolov8/
 - EBDS - Gateways LoRaWAN - https://www.ebds.eu/produits/equipements/gateways-lorawan
