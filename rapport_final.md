@@ -143,7 +143,7 @@ Notre projet comprenait aussi une partie prospective sur une installation LoRaWA
 
 En ce qui concerne la répartition du projet, nous estimons que chacun a fourni une quantité de travail égale. Certains ont fait plus de code pendant que d'autres ont plus travaillé sur la partie documentation et rédactionnelle de la prospection LoRaWAN. Nous avons très peu fait de travail personnel en dehors des heures attribuées au projet (~5% du projet a dû être fait en travail supplémentaire).
 
-Pour les commmits, au total (seulement liés au code) nous avons la répartition suivante : 
+Pour les commmits, au total (seulement liés au code) nous avons la répartition suivante :
 
 - Lony : 5
 - Aurélien : 29
@@ -154,10 +154,22 @@ Ces commits offrent un aperçu de la participation de chacun pour le code, mais 
 
 ## Conclusion (Retour d'expérience)
 
-Concernant nos retours, nous avons été très contents de poursuivre le projet qu'avait entamé Aurélien. Le fait de l'avoir dans l'équipe a permis de prendre en main plus facilement l'outil pour ceux qui ne le connaissait pas. Le fait d'avoir des porteurs de projet disponibles chaque semaine pour des meetings a aussi grandement aidé à avancer de manière efficace dans la bonne direction. 
+Concernant nos retours, nous avons été très contents de poursuivre le projet qu'avait entamé Aurélien. Le fait de l'avoir dans l'équipe a permis de prendre en main plus facilement l'outil pour ceux qui ne le connaissait pas. Le fait d'avoir des porteurs de projet disponibles chaque semaine pour des meetings a aussi grandement aidé à avancer de manière efficace dans la bonne direction.
 
 Ce projet était concret, et nous estimons que c'est ce qui fait sa force. De plus, il est possible qu'un article scientifique soit rédigé sur ce sujet et sur cet outil, ce qui est très gratifiant pour le groupe et notre travail.
 
-Si nous avions un seul regret sur ce projet, c'est d'avoir été aussi limité sur le temps, car 6 semaines ne nous ont pas permis de pousser les analyses au maximum et d'intégrer des modèles comme CLIP à notre outil, ce qui aurait pu améliorer davantage la précision des informations qualitatives. Cependant, nous restons très contents du livrable que nous avons pu réaliser au cours des 6 semaines. 
+Si nous avions un seul regret sur ce projet, c'est d'avoir été aussi limité sur le temps, car 6 semaines ne nous ont pas permis de pousser les analyses au maximum et d'intégrer des modèles comme CLIP à notre outil, ce qui aurait pu améliorer davantage la précision des informations qualitatives. Cependant, nous restons très contents du livrable que nous avons pu réaliser au cours des 6 semaines.
 
 En conclusion, nous sommes très heureux d'avoir pu répondre à la demande des clients, qui nous ont d'ailleurs félicité pour notre travail réalisé de manière très professionnel.
+
+## References
+
+- Ultralytics - YOLOv8 - https://docs.ultralytics.com/fr/models/yolov8/
+- EBDS - Gateways LoRaWAN - https://www.ebds.eu/produits/equipements/gateways-lorawan
+- PNE/OFB - YOLOv4 Attendance - https://github.com/Attendance-PNE-OFB/yolov4-attendance
+- Ultralytics - Pose Estimation with YOLOv8 - https://www.youtube.com/watch?v=Y28xXQmju64
+- OpenAI - CLIP - https://openai.com/research/clip
+- COCO Dataset - https://cocodataset.org/#home
+- Google - OpenImagesV7 - https://storage.googleapis.com/openimages/web/index.html
+- Aurélien COSTE - rapport de stage - https://data.ecrins-parcnational.fr/documents/stages/2023-09-rapport-stage-Aurelien-Coste-photos-IA-frequentation.pdf
+- Aurélien COSTE - présentation de stage - https://data.ecrins-parcnational.fr/documents/stages/2023-09-restitution-stage-Aurelien-Coste-photos-IA-frequentation.pdf
