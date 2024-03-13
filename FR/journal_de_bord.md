@@ -163,4 +163,8 @@ J'ai alors commencé à faire moi même quelques tests sur l'outil, à voir s'il
 - Documentation anglaise pour l'outil
 
 ## 13/03 (demi-journée)
+- Entraînement présentation poster en anglais
+- Finalisation et rendu des documents (souteance mi-parcours, poster, flyer, soutenance final, rapport final, fiche d'autoéval)
+- Présentation poster en anglais
+
 ## 14/03
